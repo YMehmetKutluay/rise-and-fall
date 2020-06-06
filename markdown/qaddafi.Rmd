@@ -9,22 +9,23 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+# Introduction
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+In this episode we will be looking at two New York Times articles regarding Muammar Qaddafi's entrance and exit from politics. 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+* Note down when the articles were published, and why those dates and articles are chosen.
 
-```{r cars}
-summary(cars)
-```
+* Give a brief history of Muammar Qaddafi (2-3 sentences)
 
-## Including Plots
+* State the what - what we will be doing here (analyzing both articles in terms of technical and social dimensions)
 
-You can also embed plots, for example:
+* State the why - 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+# Part 1: Technical Analysis
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## A Qualitative Language Comparison
+
+## A Quantitative Language Comparison
+
+# Part 2: Social Analysis
+

@@ -13,8 +13,17 @@ with open(file_path, 'r') as file:
 # TODO: Count occurrences of \n in text_full to find number of paragraphs
 # Get rid of \n
 with open(file_path, 'r') as file:
-    text_combined = file.read().replace("\n", "")
+    text_after = file.read().replace("\n", "")
 # Tokenize
-doc = nlp(text_combined)
-for token in doc:
-    print(token.text, token.pos_, token.dep_)
+token_after = nlp(text_after)
+
+# Load before text
+file_path = os.path.join(os.getcwd(), "data", "qaddafi", "before.txt")
+with open(file_path, 'r') as file:
+    text_full = file.read()
+# TODO: Count occurrences of \n in text_full to find number of paragraphs
+# Get rid of \n
+with open(file_path, 'r') as file:
+    text_before = file.read().replace("\n", "")
+# Tokenize
+token_before = nlp(text_before)
