@@ -1,0 +1,46 @@
+---
+title: "Qaddafi"
+author: "Guilherme Oliveira and Mehmet Kutluay"
+date: "6-6-2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+In this episode we will be looking at two New York Times articles regarding Muammar Qaddafi's entrance and exit from politics. 
+
+* Note down when the articles were published, and why those dates and articles are chosen.
+
+* Give a brief history of Muammar Qaddafi (2-3 sentences)
+
+* State the what - what we will be doing here (analyzing both articles in terms of technical and social dimensions)
+
+* State the why - why do this? It is a way of seeing what changed between two points in time, with as much control as possible. The control is the news publisher (New York Times) and the subject (Qaddafi regime in Libya). 
+
+* State the how - mostly qualititative analysis of the two articles in terms of their technical qualities (grammar, style of writing, prose, some NLP statistics) and their social qualities (reflecting the zeitgeist, what the emphasis is on, how it fits with the world in those days)
+
+# Part 1: Technical Analysis
+
+## Focus
+
+* Gruesome killing story vs a political transition
+* The 2011 article is mostly about how Qaddafi died. It's not about the end of the regime, but about the death of one man.
+* In fact, the 1969 article mostly talks about the wider region, rather than just what is going on in Libya. In 2011, it is all about Qaddafi and there is only a couple of mentions of the Arab Spring
+* A lot of quotations in 2011. No direct quotes in 1969 (they had access to more primary sources in 2011)
+
+## Repetitiveness
+
+* Both articles do repeat their points over and over again
+* In the 1969 article, each repeat is augmented by a new fact.  Give examples here (relating to the transition of Arab League nations from monarchies/conservative governments to leftist/nationalist ones)
+* In the 2011 article, each repeat is not augmented by a new fact. It is a repeat of a previously stated fact, from a different source.
+
+## Length and Grammar
+
+* Awaiting results from the Python code
+
+# Part 2: Social Analysis
+
