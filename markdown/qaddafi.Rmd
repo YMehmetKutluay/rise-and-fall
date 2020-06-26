@@ -1,7 +1,7 @@
 ---
 title: "Qaddafi"
 author: "Guilherme Oliveira and Mehmet Kutluay"
-date: "6-6-2020"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: pdf_document
 ---
 
@@ -11,36 +11,32 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-In this episode we will be looking at two New York Times articles regarding Muammar Qaddafi's entrance and exit from politics. 
+Hello, listeners. Welcome to the first episode of “Rise and Fall”, the podcast that retrieves and analyzes press coverage of the rise and fall of power of political leaders that have marked the recent history of humanity. My name is Mehmet Kutluay and I am doing this podcast with my good friend Guilherme Oliveira, who will be hosting the Portuguese version called "Ascensao e Queda".
 
-* Note down when the articles were published, and why those dates and articles are chosen.
+To start, we begin with coverage from the New York Times on the day of the rise and the day of the fall of Muammar Qaddafi, Libya's leader for more than four decades. Muammar Qaddafi was a controversial figure who shook the Arab, Western and African worlds at different stages of his life. This flexibility maniftested itself throughout his life: he came to power in a bloodless coup; conducted a war with Chad that introduced Toyota jeeps onto battlefields; provided financial and logistical support for terrorist organizations to trigger attacks against Israel as well as the Lockerbee attack; cooperated with the US on the war on terror after 9/11; transformed Libya from a medieval theocratic monarchy to a dictatorship with significant pockets of development; the crushing of any internal dissent, including the massacre of prisoners in a revolt in the 1990s; alleged funding to European universities and politicians; the violent and bloody reaction to the arrival of the Arab Spring in your country. For many, Qaddafi was a vain leader who did everything he could to attract attention and put Libya at the media level of the world superpowers. For others, he was a brave fighter against Western rule and against the creation of the State of Israel. That is, it is difficult to find a more passionate character to start this podcast.
 
-* Give a brief history of Muammar Qaddafi (2-3 sentences)
+The New York Times was chosen for technical reasons. First, I don't speak Portuguese but the other podcast host does. Second, the analysis of the articles is partly done with software that is optimized for English texts. Third, the New York Times has all of its articles available on its website in PDF format. Finally, the New York Times is a leading publication in a country that, during Qaddafi's lifetime, was always a democracy without any state censorship. Their coverage may not always have been favorable, given the animosity between the US and Qaddafi during most of Qaddafi's time in office. However, this podcast is interested in just that - the nature and evolution of news coverage. We are not attempting to objectively evaluate Qaddafi. Rather, we look at the difference between coverage from when he came to power on September 1, 1969, to when he fell from power, and died, in October 20, 2011.
 
-* State the what - what we will be doing here (analyzing both articles in terms of technical and social dimensions)
-
-* State the why - why do this? It is a way of seeing what changed between two points in time, with as much control as possible. The control is the news publisher (New York Times) and the subject (Qaddafi regime in Libya). 
-
-* State the how - mostly qualititative analysis of the two articles in terms of their technical qualities (grammar, style of writing, prose, some NLP statistics) and their social qualities (reflecting the zeitgeist, what the emphasis is on, how it fits with the world in those days)
+Guilherme and I have decided to divide the show into three sections. The first section is about analyzing and comparing the articles in their technical aspects - such as number of words, overall tone and the use of direct and indirect speech. The second section looks at the articles within their political and social milieu. The final section goes through things we find interesting, but that do not fit perfectly into the first two sections. One important thing to note: we are not going to offer a verdict on the quality of the articles or comment on possible improvements or degradation found in the news coverages. This is too subjective for the scope of this podcast. Therefore, we discourage discussions about this in the comments section. Lastly, always feel free to contact us via email. We will be constantly trying to improve forthcoming episodes and are open to suggestions - especially on any political leaders you'd like us to cover. 
 
 # Part 1: Technical Analysis
 
-## Focus
+So let's begin with part 1 - the technical aspect of the articles. The first New York Times article was published on September 2nd, 1969 - even though Qaddafi's coup occurred on September 1st, 1969. This gap is probably explained by the lag in delivering information in the world before the internet. In contrast, the second article was published on the same day that Qaddafi died at the hands of a mob, on October 20th, 2011.
 
-* Gruesome killing story vs a political transition
-* The 2011 article is mostly about how Qaddafi died. It's not about the end of the regime, but about the death of one man.
-* In fact, the 1969 article mostly talks about the wider region, rather than just what is going on in Libya. In 2011, it is all about Qaddafi and there is only a couple of mentions of the Arab Spring
-* A lot of quotations in 2011. No direct quotes in 1969 (they had access to more primary sources in 2011)
+There are also differences in declaring authors - the 1969 articles is written anonymously, where as the 2011 article has the name of three authors on it. This could be another consequence of the internet - there is more space to include information. This is probably why the 2011 article is much longer than the 1969 article.
 
-## Repetitiveness
+There are variances in tone as well. Some passages from the 1969 news are slightly condescending. For example, this passage in the article: “Observers believe that the new leaders may have difficulty finding grounds on which to accuse the monarchy. King Idris and other members of the royal family have been living relatively modestly and are known to have avoided corruption.” A moral judgement is being made, but based on generic comments from anonymous sources. The 2011 article, by contrast gives, mostly verifiable, details for it's sources.
 
-* Both articles do repeat their points over and over again
-* In the 1969 article, each repeat is augmented by a new fact.  Give examples here (relating to the transition of Arab League nations from monarchies/conservative governments to leftist/nationalist ones)
-* In the 2011 article, each repeat is not augmented by a new fact. It is a repeat of a previously stated fact, from a different source.
+Both articles are structured around repeating information, each time giving more details or presenting a slightly different perspective. This most likely reflects how journalists are trained to write articles. The difference, funny enough, is the content that is repeated. The 1969 article repeats the geopolitical environment Libya is in, and the potential break in ideology between the old and new regime. In the 2011 article, the repetition is on the event of Qaddafi dying. 
 
-## Length and Grammar
+This difference in focus is augmented by the overall sentiment that can be found in both articles. The 1969 article may at times be condescending, but its tone is largely clinical. After all, one can only put so much colorful language when describing geopolitics. The 2011 article, by contrast, contains much more emotive and graphic language. A lot of emphasis is put, for example, on the clothes that Qaddafi wore when he died, or the number and location of the gunshots wound he was found with. 
 
-* Awaiting results from the Python code
+This observed tone difference is also found statistically. When both articles are run through Python's NLTK package's sentiment scoring model, the 88,3% of the 1969 article's phrases are found to be neutral, with 8% of the phrases being positive and the rest are negative. In the 2011 article, by comparison, the percentage of neutral phrases has fallen to 80%. This difference of 8% is largely caused by the percentage of negative phrases increasing. 
 
-# Part 2: Social Analysis
+To sum up - the articles are, in technical terms, quite different. Some of these differences come purely from differences in eras. With the internet, news can be delivered faster, in longer form and with easily verified content. Other differences reflect a shift in attention regarding events within Libya. These differences reflect the social and political changes. 
+
+# Part 2: Political and Social Analysis
+
+* 1969 article, fun fact, does not mention Qaddafi at all. Another commander is mentioned, but he is mentioned in his role in the broader events within and outside of Libya. The 2011 article, on the other hand, is almost entirely about Qaddafi. This is evidence of how the attention surrounding Libya has changed, from the US perspective. 
+* 1969 article talks about oil and what happens in other Arab countries. 2011 article, when not talking about Qaddafi dying, does not mention oil at all but does mention the Arab spring.
 
