@@ -7,6 +7,7 @@
 import os
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import spacy
+import pandas as pd
 
 ## Sentiment Analysis with NLTK
 # Initialize sentiment intensity analyzer (see https://www.nltk.org/api/nltk.sentiment.html)
@@ -30,4 +31,39 @@ nlp = spacy.load("en_core_web_sm")
 # Tokenize
 token_before = nlp(before)
 token_after = nlp(after)
-# TODO: Count adjectives/verbs
+## Count adjectives and verbs for both articles
+# For before article
+# Initiate pandas dataframe
+pd_before = pd.DataFrame({"word":[], "pos_value":[]})
+for token in token_before:
+    # Make row of data
+    sub_pd = pd.DataFrame({"word":str(token), "pos_value":token.pos_}, index = [0])
+    # Append to pd_before
+    pd_before = pd_before.append(sub_pd, ignore_index = True)
+# Group by pos_value and count
+n_rows = len(pd_before)
+pd_before = (
+    pd_before
+    .groupby("pos_value")
+    .agg(before_count = ("pos_value", "count"))
+    .reset_index()
+    )
+pd_before["before_relative_count"] = pd_before["before_count"]/n_rows
+
+# For after article
+# Initiate pandas dataframe
+pd_after = pd.DataFrame({"word":[], "pos_value":[]})
+for token in token_after:
+    # Make row of data
+    sub_pd = pd.DataFrame({"word":str(token), "pos_value":token.pos_}, index = [0])
+    # Append to pd_before
+    pd_after = pd_after.append(sub_pd, ignore_index = True)
+# Group by pos_value and count
+n_rows = len(pd_after)
+pd_after = (
+    pd_after
+    .groupby("pos_value")
+    .agg(after_count = ("pos_value", "count"))
+    .reset_index()
+    )
+pd_after["after_relative_count"] = pd_after["after_count"]/n_rows
