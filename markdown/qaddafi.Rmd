@@ -13,23 +13,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hello, listeners. Welcome to the first episode of “Rise and Fall”, the podcast that retrieves and analyzes press coverage of the rise and fall of power of political leaders that have marked the recent history of humanity. My name is Mehmet Kutluay and I am doing this podcast with my good friend Guilherme Oliveira, who will be hosting the Portuguese version called "Ascensao e Queda".
 
-To start, we begin with coverage from the New York Times on the day of the rise and the day of the fall of Muammar Qaddafi, Libya's leader for more than four decades. Muammar Qaddafi was a controversial figure who shook the Arab, Western and African worlds at different stages of his life. This flexibility manifested itself throughout his life: he came to power in a bloodless coup; conducted a war with Chad that introduced Toyota jeeps onto battlefields; provided financial and logistical support for terrorist organizations to trigger attacks against Israel as well as the Lockerbee attack; cooperated with the US on the war on terror after 9/11; transformed Libya from a medieval theocratic monarchy to a dictatorship with significant pockets of development; the crushing of any internal dissent, including the massacre of prisoners in a revolt in the 1990s; alleged funding to European universities and politicians; the violent and bloody reaction to the arrival of the Arab Spring in his country. For many, Qaddafi was a vain leader who did everything he could to attract attention and put Libya in the world spotlight, along with the world superpowers. For others, he was a brave fighter against Western rule and against the creation of the State of Israel. Hence, it is difficult to find a more passionate character to start this podcast.
+To start, we begin with coverage from the New York Times on the day of the rise and the day of the fall of Muammar Qaddafi, Libya's leader for more than four decades. Muammar Qaddafi was a controversial figure who shook the Arab, Western and African worlds at different stages of his life. This flexibility manifested itself throughout his life: he came to power in a bloodless coup; conducted a war with Chad that introduced Toyota jeeps onto battlefields; provided financial and logistical support for terrorist organizations to trigger attacks against Israel as well as the Lockerbee attack; cooperated with the US on the war against terror after 9/11; transformed Libya from a medieval theocratic monarchy to a dictatorship with significant pockets of development; the crushing of any internal dissent, including the massacre of prisoners in a revolt in the 1990s; alleged funding to European universities and politicians; and the violent and bloody reaction to the arrival of the Arab Spring in his country. For many, Qaddafi was a vain leader who did everything he could to attract attention and put Libya in the world spotlight, along with the world superpowers. For others, he was a brave fighter against Western rule and against the creation of the State of Israel. Hence, it is difficult to find a more colorful character to start this podcast.
 
 The New York Times was chosen for technical reasons. First, I don't speak Portuguese but Guilherme does. Second, the analysis of the articles is partly done with packages in the programming language Python, which are largely optimized for English texts. Third, the New York Times has all of its articles available on its website in PDF format. Finally, the New York Times is a leading publication in a country that, during Qaddafi's lifetime, was always a democracy without any state censorship. Their coverage may not always have been favorable, given the animosity between the US and Qaddafi during most of Qaddafi's time in office. However, this podcast is interested in just that - the nature and evolution of news coverage. We are not attempting to objectively evaluate Qaddafi. Rather, we look at the difference between coverage from when he came to power on September the 1st, 1969, to when he fell from power, and died, in October the 20th, 2011.
 
-Guilherme and I have decided to divide each episode into three sections. The first section is about analyzing and comparing the articles in terms of their technical aspects - such as number of words, overall tone and sentiment. The second section looks at the articles from within their political and social milieu. The final section goes through things we find interesting, but that do not fit perfectly into the first two sections. 
+Guilherme and I have decided to divide each episode into three sections. The first section is about analyzing and comparing the articles in terms of their technical aspects - such as number of words, overall tone and sentiment. The second section looks at the articles from within their political and social milieu. The final section goes through some interesting nuggets we've found - but ones that do not fit perfectly into the first two sections. 
 
-One important thing to note: we are not going to offer a verdict on the quality of the articles or comment on possible improvements or degradations that we found in the news coverages. This is too subjective for the scope of this podcast. Therefore, we discourage discussions about this in the comments section. Lastly, always feel free to contact us via email. We will be constantly trying to improve forthcoming episodes and are open to suggestions - especially regarding any political leaders you'd like us to cover. 
+One important thing to note: we are not going to offer a verdict on the quality of the articles or comment on possible improvements. This is too subjective for the scope of this podcast. Therefore, we discourage discussions about this in the comments section. Lastly, always feel free to contact us via email. We will be constantly trying to improve forthcoming episodes and are open to suggestions - especially regarding any political leaders you'd like us to cover. 
 
 # Part 1: Technical Analysis
 
 And with that, let's begin with part 1 - the technical aspect of the articles. The first New York Times article was published on September 2nd, 1969 - even though Qaddafi's coup occurred on September 1st. This gap is probably explained by the lag in delivering information in the world before the internet. In contrast, the second article was published on the same day that Qaddafi died at the hands of a mob, on October 20th, 2011.
 
-There are also differences in declaring authors - the 1969 article is written anonymously, whereas the 2011 article has the name of three authors on it. This could be another consequence of the internet - there is more space to include information. This is probably why the 2011 article is much longer than the 1969 article, running at 1474 words versus the 881 words of the 1969 article. Note that these numbers do not include titles and subtitles.
+There are also differences in declaring authors - the 1969 article is written anonymously, whereas the 2011 article has the name of three authors on it. This could be another consequence of the internet - there is simply more space to include information. This is probably why the 2011 article is much longer than the 1969 article, running at 1474 words versus the 881 words of the 1969 article. Note that these numbers do not include titles and subtitles.
 
-There are variances in tone as well. Some passages from the 1969 article are slightly condescending. For example, take this passage in the article: “Observers believe that the new leaders may have difficulty finding grounds on which to accuse the monarchy. King Idris and other members of the royal family have been living relatively modestly and are known to have avoided corruption.” Here, a moral judgement is being made. However it is based on generic comments from anonymous sources. The 2011 article, by contrast, gives details whose sources are declared.
+There are variances in tone as well. Some passages from the 1969 article are slightly condescending. For example, take this passage in the article: “Observers believe that the new leaders may have difficulty finding grounds on which to accuse the monarchy. King Idris and other members of the royal family have been living relatively modestly and are known to have avoided corruption.” Here, a moral judgement is being made. However it is based on generic comments from anonymous sources. The 2011 article, by contrast, gives details on which sources they declare.
 
-Both articles are structured around repeating information, each time giving more details or presenting a slightly different perspective. This most likely reflects how journalists are trained to write articles. The difference, funny enough, is the content that is repeated. The 1969 article repeats the geopolitical environment Libya is in, and the potential break in ideology between the old and new regime. In the 2011 article, the repetition centers around the event of Qaddafi dying. More specifically:
+Both articles are structured around repeating information, each time giving more details or presenting a slightly different perspective of the repeated topic. This most likely reflects how journalists are trained to write articles. The difference, funny enough, is the content that is repeated. The 1969 article repeats the geopolitical environment Libya is in, and the potential break in ideology between the old and new regimes. In the 2011 article, the repetition centers around the event of Qaddafi dying. More specifically:
 
 1. Qaddafi's last words are discussed at least twice.
 2. There are repeated references to testimonies and opinions about the possible cause of death, including the opinion based on videos and photographs of a doctor based in New York;
@@ -40,77 +40,61 @@ Another repeated point is how Assad's future in Syria may become similar to Qadd
 
 Next, we use statistics to analyze the tone of the news in as quantitative a way as possible. This begins with seeing whether the 1969 article discusses the geopolitics of the Arab world more than the 2011 article.
 
-About 49% of the words in 1969 articles are dedicated to describing basic facts of regional geopolitics - which countries have conservative leaders, which is allied to which and so on and so forth. Contrast this to the 2011 article where only 20% of the words are dedicated to this topic.
+About 49% of the sentences in the 1969 articles are dedicated to describing basic facts of regional geopolitics - which countries have conservative leaders, which is allied to which and so on and so forth. Contrast this to the 2011 article where only 20% of the sentences are dedicated to this topic.
 
-In addition, the 2011 article seems to use much more direct and indirect speech than the 1969 article. The 1969 article does not contain direct speech, and indirect speech consumes about 20% of the sentences in the article; in 2011, direct and indirect speeches claim more than 50% of sentences. This is probably a result of journalists in 2011 being more time-pressed to write and publish than their peers in 1969. 
+In addition, the 2011 article seems to use much more direct and indirect speech than the 1969 article. The 1969 article does not contain direct speech, and indirect speech consumes about 20% of the sentences in the article. In the 2011 article, direct and indirect speeches claim more than 50% of sentences. This is probably a result of journalists in 2011 being more time-pressed to write and publish than their peers in 1969. 
 
-Content aside, we also observe some differences in sentiment between the articles. Using Python's NLTK package, we find that in the 1969 article, 88% of the sentences are considered neutral, 8% positive and the remaining sentences negative.
+Content aside, we also observe some differences in sentiment between the articles. Using Python's NLTK package, we find that in the 1969 article, 88% of the sentences are considered neutral, 8% positive and the remaining 4% negative.
 
-In comparison, in the 2011 article, 80% of sentences are considered neutral, with this drop of 8 percentage points being transferred almost entirely to negative sentences. We can conclude two things from here. One, the two texts are by and large neutral - as it should be with news articles. However, and this is the second point, the share of negativity is double in the 2011 article than it is in the 1969 article.
+In comparison, in the 2011 article, 80% of sentences are considered neutral, with this drop of 8 percentage points being transferred almost entirely to negative sentences. We can conclude two things from here. One, the two texts are by and large neutral - as it should be with news articles. However, and this is the second point, the share of negativity is tripled in the 2011 article compared to the 1969 article.
 
-This difference in focus and sentiment is largely driven by the content. The 1969 article may at times be condescending, but its tone is largely clinical. After all, one can only put so much colorful language when describing geopolitics. The 2011 article, by contrast, is mostly about a person dying. 
+This difference in focus and sentiment is largely driven by the content. The 1969 article may at times be condescending, but its tone is largely clinical. After all, one can only put so much colorful language when describing geopolitics. The 2011 article, by contrast, is mostly about a person dying. Which can be described in as colorful a way as you like.
 
-There are some factors behind this. First, the internet has lowered the cost of reporting and accelerated the time for when articles are produced. 
-
-1. A journalist in 1969 had at least a day or two to write a compact article. In this period, fact checking usually required a visit to the library.
-
-2. However in 2011, a journalist has much less time to be the first to cover all events, with a lot of content available online. Most of this content is produced by a myriad of actors - some less reliable than others.
+There are some factors behind this. First, the internet has lowered the cost of reporting and accelerated the time for when articles are produced.A journalist in 1969 had at least a day or two to write a compact article. In this period, fact checking usually required a visit to the library. However in 2011, a journalist has much less time to be the first to cover all events, with a lot of content available online. Most of this content is produced by a myriad of actors - some less reliable than others.
 
 The second factor is how infamous Qaddafi had become. He placed Libya on the world geopolitical stage, and in the process generated a lot of hatred from the US. Contrast this to 1969 - Libya was just another state at the crossroads of the Middle East and Africa. By 2011 it was the country of Qaddafi, an opponent to the West and a supporter of many past terrorist actions.
 
-The fact that the 1969 coup was absolutely peaceful while Qaddafi's fall was precipitated by a civil war is another potential cause for explaining the differences in content.
+The fact that the 1969 coup was absolutely peaceful while Qaddafi's fall was during a civil war is another potential cause for explaining the differences in content.
 
 And finally, the differences may be a reflection of deeper changes in society, such as attitudes towards authoritarian regimes in general and the use of violence. However, this relates to the social and political differences between the periods when the articles were written. 
 
 # Part 2: Political and Social Analysis
 
-This ties us in nicely to the second part of the episode: the approach to political and economic issues. Since we are looking at New York Times articles, the events are described through a US-centric lens. Let's start with how the two articles are different.
+And thus this ties us in nicely to the second part of the episode: the political and economic comparisons. Since we are looking at New York Times articles, the events are described through a US-centric lens. Let's start with how the two articles are different.
 
-Firstly, the 1969 article explicitly mentions Western interests in Libya at the time of the revolution. For example, the article points out that the military junta's first radio statement did not refer to the American base in Libya. The news also ends with a reference to the importance of Libyan oil in Europe's supply. These are standard Western interests when talking about oil rich developing countries.
+First, the 1969 article explicitly mentions Western interests in Libya at the time of the revolution. For example, the article points out that the military junta's first radio statement did not refer to the American base in Libya. The news also ends with a reference to the importance of Libyan oil to Europe. These are standard Western interests when talking about oil rich developing countries.
 
-When we go to the 2011 article, such Western interests are barely mentioned. In terms of the military dimension, there is reference to President Obama's role on the death of Qaddafi, as well as the role of NATO's military forces in the fall of the Qaddafi regime. 
+When we go to the 2011 article however, such Western interests are barely mentioned. In terms of the military dimension, there is reference to President Obama's role on the death of Qaddafi, as well as the role of NATO's military forces in the fall of the Qaddafi regime. 
 
-The second notable difference between the articles is the role of oil. The 1969 article speaks of oil several times; however the word is only mentioned once in the 2011 article. And that is when referring to the visit of the Libyan minister of oil and finance to see Qaddafi's corpse.
+The second notable difference between the articles is the role of oil. The 1969 article speaks of oil several times; however the word itself is only observed once in the 2011 article. And that is when referring to the visit of the Libyan minister of oil and finance to see Qaddafi's corpse.
 
-Guilherme and I speculate that this reduction in the role of oil from one article to the next may have been caused by several factors, One if the shale gas revolution in the USA. This reduced the importance of external supply of oil. The second is the decline of the oil's reputation as a source of wealth in the context of the rise of environmentalism and American geopolitical disasters in the past 20 years.
+Guilherme and I speculate that this reduction in the role of oil from one article to the next may have been caused by several factors, one of them being the shale gas revolution in the USA. This reduced the importance of external supply of oil. The second is the decline of theoil's reputation as a source of wealth in the context of the rise of environmentalism and American geopolitical disasters in the past 20 years.
 
-The third difference arises from central concepts, that relate to the milieu both articles are written in. The 2011 article is littered with vocabulary from the internet age, such as “viral” or “twittersphere”. In contrast, Cold War terminology is prevalent in the 1969 article: Baathism; Arab nationalism; leftist regimes in opposition to conservative monarchies; amongst others.
+The third difference arises from central concepts, that relate to the milieu both articles are written in. The 2011 article is littered with vocabulary from the internet age, such as “viral” or “twittersphere”. In contrast, Cold War terminology dominates the 1969 article: Baathism; Arab nationalism; leftist regimes in opposition to conservative monarchies; amongst others.
 
 All of this points to one thing. The 1969 article seems very concerned with defining the ideological position of the actors: some are left-wing nationalists who are anti-Israel; while the others are conservative or monarchical. In the 2011 article - it seems to be limited to dividing the world between the dictators and the pro-democratic masses of the Arab Spring.
 
 Despite all these fundamental differences, some surprising similarities exist.
 
-To start off, both articles share a strong antagonism to the Qaddafi regime. The 1969 article openly defends the deposed monarchy and inserts the coup d'état as yet another in the series of coups from left-wing Arab nationalists against the incumbent conservative regimes. The 2011 article complements this sentiment by reporting on messages of relief and rejoicement about the fall of Qaddafi.
+To start off, both articles share a strong antagonism to the Qaddafi regime. The 1969 article openly defends the deposed monarchy and inserts the coup d'état as yet another in the series of coups from left-wing Arab nationalists against the incumbent conservative regimes. The 2011 article complements this sentiment by reporting on messages of relief and rejoicement about the fall of Qaddafi. To be fair to the 2011 article, space is given for two testimonies on the disappointment about the absence of a trial for Qaddafi.
 
 The second similarity between the two articles is related to the fact that Libya never appeared as a protagonist in the events: in 1969, it ended up being carried out in a wave of coups d'états originating in Egypt from Nasser; in 2011, it was another piece in the Arab Spring dominoes, starting with neighboring Tunisia. Of course, both events are heavily related to as much the pecularities of Libyan history as well as the geopolitical winds. But, naturally, these are seldom important to a US-centric view of events
 
-To end this part, it should be noted that the 2011 article also mentions, through two testimonies, the disappointment of some actors about the absence of a trial for Qaddafi.
 
 # Part 3: Interesting Nuggets
 
-Finally, we move on to the last section: curiosities.
+Finally, we move on to the last section: the interesting nuggets. And we have two interesting nuggets for you.
 
-While the 1969 article covers a coup d'état without bloodshed, the 2011 article describes yet another episode of civil war.
+The first nugget is the contrast in blood spilled. The 1969 article covers a coup d'état without bloodshed, whereas the 2011 article describes in almost-graphic detail the killing of a person. Even in 2020, it is still curious how Qaddafi's regime started in such a peaceful way and ended with so much chaos. It was also by no means an incident that stayed isolated in Libya. There are no shortage of arguments that draw a direct line from Qaddafi's bloody end to Assad's cruelty against his own people in Syria, desperate to avoid the same fate. This is, of course, outside the scope of our podcast. So, moving on.
 
-It is still curious that Qaddafi started in such a peaceful way and ended in so much chaos. Some will speak of an attempt to erase their legacy; others will dazzle the harvest of hatred with which it crushed any internal opposition.
+The second nugget concerns only the 1969 article. Guilherme and I may have been a bit cruel by leaving this observation to the very end: Qaddafi's name, or person, is never mentioned. Despite historical sources claiming that Qaddafi was the leader of the coup, the article only mentions an unknown Colonel Saaduddin Abu Shwirrib as the leader of the coup.
 
-Guilherme and I were cruel and left the most interesting observation about the 1969 article to the end: never mention the name of Qaddafi.
+The first New York Times article that mentions Qaddafi as the leader of Libya only appears on November 10th, 1969, over two months after our 1969 article. And that story is not about the big reveal of Qaddafi being the true mastermind of the coup - it is only about a rally where a certain Colonel Qaddafi threatens to expel the US Army from their base in Libya, before the concession treaty expires.
 
-Despite historical sources claiming that Qaddafi was the leader of the coup, the article only mentions an unknown Colonel Saaduddin Abu Shwirrib.
-
-Incidentally, the first New York Times article that mentions Qaddafi as the leader of Libya only appears on November 10, 1969, a story that briefly describes a rally where Qaddafi threatens to expel the American Armed Forces from the area's base. Wheelus before the concession treaty expires.
-
-In other words, it is ironic that journalists in 1969 did not identify the real leader of the coup.
+It may be ironic that journalists in 1969 did not identify the real leader of the coup - but of course this could have well been intentional on the side of Qaddafi and his comrades.  
 
 # Conclusion
 
-We have reached the end of this episode.
+And that concludes our episode! Thank you very much for tuning in and listening. We welcome all listeners to share their views, suggestions for future episodes and anything else that may come to their minds in the comments section. Our only request is that this is done with civility.
 
-
-Thank you very much for following him.
-
-Please share your views, suggestions for future episodes and everything else that comes to mind.
-
-We only ask you to do so with politeness and decorum.
-
-Until the next episode!
+See you all next time!
