@@ -1,0 +1,61 @@
+---
+title: "Sarkozy"
+author: "Guilherme Oliveira and Mehmet Kutluay"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Hello, and welcome to Rise and Fall, Episode 2 - Nicolas Sarkozy.
+
+Last time, we covered the New York Times articles covering the rise and fall of Muammar Qaddafi, between 1969 and 2011. Today, we will be covering The Economist articles covering the rise and fall of Nicolas Sarkozy, between 2007 and 2012.
+
+- Give an introduction and summary of Nicolas Sarkozy. Some motivations for covering Sarkozy:
+  1. He was (and is) a very public figure who came to office with a lot of promise. Ever since leaving office, he has been involved in one scandal after the other.
+  2. Although he served only one term in office, it covered one of the major crises the EU ever faced (the eurozone crisis) and he played a central role in the EU's response to it. He is famous for being one of the major eurozone leaders to openly say that Greece should have never been admitted to the eurozone, much less the EU, in the middle of the eurozone crisis.
+  3. He was the last "Gaullist" - a term that has most likely outlived itself in French politics.
+
+
+# Part 1: Technical Analysis
+
+Message to Guilherme: In general, the two articles are very different in terms of technical matters. I haven't been able to find a point that they both agree on. So I've listed only the differences here. Let me know if you find some common points!
+
+1. Declaration of authors: before article has no authors, after article has one author's initials.
+
+2. Even though both articles are written in the age of internet - they are for a print medium (The Economist is a weekly magazine). The first article is from the Briefing section of the May 10th 2007 edition. It runs at 3068 words. The second article is not in the weekly edition, so it is not restricted by the length of an A4 page, but only runs at 737 words. In the weekly edition of The Economist, following Sarkozy's defeat, there is no article mentioning it. This is because the second article is a follow-up to the weekly edition article on France's election - where a Sarkozy defeat is predicted. So this is a clear difference between the two articles - one is from the weekly edition, the other is not.
+
+3. The first article is the introduction of the Sarkozy presidency. The story consists of two main threads - the surprising election of Sarkozy (by a historically wide margin) and his potential policies. This explains the long word count. Although The Economist's perspective is favorable to French center-of-right politics, the article itself is remarkably well-balanced. The second article, on the other hand, does not present itself as a complete conclusion of the first article. Some points are mentioned - he came into office with a strong mandate, he made a lot promises and delivered on some of them - but not all. Almost no mention is made of his foreign policy, other than that he "was able to keep France on the world stage".  
+
+4. That already ties into the tone - the editors of The Economist didn't think that running an extensive piece on Sarkozy leaving office (or Hollande entering) warranted it's own article in the weekly edition. There is no great upset to make a story out of. The second article reads like an obituary, where the sentence "what a waste" is repeated twice to summarize Sarkozy's time in office. 
+
+5. It should come as no surprise then, that the NLTK sentiment analysis shows a 50% uptick in the negative sentiments between the two article (0.072 vs 0.11). 
+
+
+# Part 2: Political and Social Analysis
+
+Common points
+
+1. The legacy of Chirac. In the before and after article, this legacy is talked about in the same way. Sarkozy broke away from the Chirac style of governing, but still styled himself as a Gaullist. This
+
+2. The 
+
+Differences
+
+# Part 3: Interesting Nuggets
+
+1. What is NOT mentioned in the after article - no mention of the eurozone crisis! Sarkozy was president of a major EU and global power between 2007-2012, and was central in the EU's response to the Greek and eurozone crisis. No mention is made of this. The financial crisis comes up only once, when discussing the unemployment rate during his tenure.
+
+2. Hollande is mentioned in the before article (as Segolene Royal's partner), but not mentioned in the after article (even though he won the election). 
+
+3. Famouns names from the before article: A little known Christine Lagarde is mentioned as a possible finance minister. A very well known Dominique Strauss-Kahn criticizes Segolene Royal at length about her mismanagement of the election and of messaging.
+
+
+
+2. 
+
+# Conclusion

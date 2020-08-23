@@ -71,4 +71,7 @@ pd_after = (
     .agg(after_count = ("pos_value", "count"))
     .reset_index()
     )
+# Get word count
+after_word_count = pd_after[pd_after["pos_value"] != "PUNCT"]["after_count"].sum()
+# Get relative word type counts
 pd_after["after_relative_count"] = pd_after["after_count"]/n_rows
