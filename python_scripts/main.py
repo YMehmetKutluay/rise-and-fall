@@ -10,17 +10,19 @@ import spacy
 import pandas as pd
 
 ## Sentiment Analysis with NLTK
+# Select political leader
+leader = "sarkozy"
 # Initialize sentiment intensity analyzer (see https://www.nltk.org/api/nltk.sentiment.html)
 sia = SentimentIntensityAnalyzer()
 # Get before and after text files as single strings
-file_path = os.path.join(os.getcwd(), "data", "qaddafi", "after.txt")
+file_path = os.path.join(os.getcwd(), "data", leader, "after.txt")
 with open(file_path, 'r') as file:
     after = file.read().replace("\n", "")
-file_path = os.path.join(os.getcwd(), "data", "qaddafi", "before.txt")
+file_path = os.path.join(os.getcwd(), "data", leader, "before.txt")
 with open(file_path, 'r') as file:
     before = file.read().replace("\n", "")
 # Get sentiment score dictionaries
-sentiments= {
+sentiments = {
     "before" : sia.polarity_scores(before),
     "after" : sia.polarity_scores(after)
     }    
@@ -48,6 +50,9 @@ pd_before = (
     .agg(before_count = ("pos_value", "count"))
     .reset_index()
     )
+# Get word count
+before_word_count = pd_before[pd_before["pos_value"] != "PUNCT"]["before_count"].sum()
+# Get relative word type counts
 pd_before["before_relative_count"] = pd_before["before_count"]/n_rows
 
 # For after article
@@ -66,4 +71,7 @@ pd_after = (
     .agg(after_count = ("pos_value", "count"))
     .reset_index()
     )
+# Get word count
+after_word_count = pd_after[pd_after["pos_value"] != "PUNCT"]["after_count"].sum()
+# Get relative word type counts
 pd_after["after_relative_count"] = pd_after["after_count"]/n_rows

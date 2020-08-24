@@ -1,0 +1,75 @@
+---
+title: "Sarkozy"
+author: "Guilherme Oliveira and Mehmet Kutluay"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Hello, and welcome to Rise and Fall, Episode 2 - Nicolas Sarkozy.
+
+Last time, we covered the New York Times articles covering the rise and fall of Muammar Qaddafi, between 1969 and 2011. Today, we will be covering The Economist articles covering the rise and fall of Nicolas Sarkozy, between 2007 and 2012.
+
+- Give an introduction and summary of Nicolas Sarkozy. Some motivations for covering Sarkozy:
+  1. He was (and is) a very public figure who came to office with a lot of promise. Ever since leaving office, he has been involved in one scandal after the other.
+  2. Although he served only one term in office, it covered one of the major crises the EU ever faced (the eurozone crisis) and he played a central role in the EU's response to it. He is famous for being one of the major eurozone leaders to openly say that Greece should have never been admitted to the eurozone, much less the EU, in the middle of the eurozone crisis.
+  3. He was the last "Gaullist" - a term that has most likely outlived itself in French politics.
+
+
+# Part 1: Technical Analysis
+
+Message to Guilherme: In general, the two articles are very different in terms of technical matters. I haven't been able to find a point that they both agree on. So I've listed only the differences here. Let me know if you find some common points!
+
+1. Declaration of authors: before article has no authors, after article has one author's initials.
+
+2. Even though both articles are written in the age of internet - they are for a print medium (The Economist is a weekly magazine). The first article is from the Briefing section of the May 10th 2007 edition. It runs at 3068 words. The second article is not in the weekly edition, so it is not restricted by the length of an A4 page, but only runs at 737 words. In the weekly edition of The Economist, following Sarkozy's defeat, there is no article mentioning it. This is because the second article is a follow-up to the weekly edition article on France's election - where a Sarkozy defeat is predicted. So this is a clear difference between the two articles - one is from the weekly edition, the other is not.
+
+3. The first article is the introduction of the Sarkozy presidency. The story consists of two main threads - the surprising election of Sarkozy (by a historically wide margin) and his potential policies. This explains the long word count. Although The Economist's perspective is favorable to French center-of-right politics, the article itself is remarkably well-balanced. The second article, on the other hand, does not present itself as a complete conclusion of the first article. Some points are mentioned - he came into office with a strong mandate, he made a lot promises and delivered on some of them - but not all. Almost no mention is made of his foreign policy, other than that he "was able to keep France on the world stage".  
+
+4. That already ties into the tone - the editors of The Economist didn't think that running an extensive piece on Sarkozy leaving office (or Hollande entering) warranted it's own article in the weekly edition. There is no great upset to make a story out of. The second article reads like an obituary, where the sentence "what a waste" is repeated twice to summarize Sarkozy's time in office. 
+
+5. It should come as no surprise then, that the NLTK sentiment analysis shows a 50% uptick in the negative sentiments between the two article (0.072 vs 0.11). 
+
+
+# Part 2: Political and Social Analysis
+
+Common points
+
+1. The legacy of Chirac. In the before and after article, this legacy is talked about in the same way. Sarkozy broke away from the Chirac style of governing, but still styled himself as a Gaullist. 
+
+2. Sarkozy's historically big mandate. Both articles refer to how the beginning of the Sarkozy presidency, and the rest of it, is filled with energy.
+
+3. Sarkozy's difference from former politicians. He is not ENA educated and speaks plainly.
+
+4. Some domestic policies - pension and labor market reforms. The first article pre-empts pension and labor market reforms. The second article mentions how these failed to pass. In both articles, Sarkozy's approach to the labor market is simple: he wants the French to work more. 
+
+5. Transatlantic leanings - more specifically that he is an Americanophile. Not only his good personal relationship with US presidents, but also his insistence to "not blame everything on the Americans", reveals itself in both articles.
+
+6. The votes of Le Pen - the first article links Sarkozy's victory to his capturing of the far-right votes, as well as the centrist votes. The second article links Sarkozy's defeat to his inability to capture far-right votes, and centrist votes.
+
+Differences
+
+1. The first article gives a lot of room to discussion on foreign policy. There are some things that are outdated by 2012: Turkey's candidacy to the EU, France's rejection of the EU constitution in 2003 and the issue of supporting the war in Iraq. Thus the second article doesn't have any of these. 
+
+2. The issue of having ethnic minorities in the cabinet. The first article is hopeful about it. The second article shows that this didn't happen.
+
+# Part 3: Interesting Nuggets
+
+1. What is NOT mentioned in the after article - no mention of the eurozone crisis! Sarkozy was president of a major EU and global power between 2007-2012, and was central in the EU's response to the Greek and eurozone crisis. No mention is made of this. The financial crisis comes up only once, when discussing the unemployment rate during his tenure.
+
+2. Hollande is mentioned in the before article (as Segolene Royal's partner), but not mentioned in the after article (even though he won the election). 
+
+  3. Famous names from the before article: A little known Christine Lagarde is mentioned as a possible finance minister. A very well known Dominique Strauss-Kahn criticizes Segolene Royal at length about her mismanagement of the election and of messaging.
+
+4. Sarkozy's personality jumps out - in the first article we see him as close friends of George Bush and Tony Blair. In the second article, his high-profile relationship with Carla Bruni and personal criticism of Silvio Berlusconi is brought up. These don't have much to do with politics (the leaders of France, the USA and the UK - thanks to their countries' alignment on the world stage - are destined to get along together. Whether they like it or not), but with Sarkozy as a person. 
+
+# Conclusion
+
+1. Re-iterate findings from all three parts. Re-iterate that the articles are different in nature (one is printed, the other isn't) and tone. Underline differences in social/political sphere as well.
+
+2. In hindsight, we can see that he is the first attempt at a Macron-style presidency - with the exception that the articles link his rise and fall to office to the support he received from Le Pen's voters. 
