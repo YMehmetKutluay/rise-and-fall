@@ -35,7 +35,7 @@ The news of the rise of Sarkozy came on the 10th of May, 2007, four days after t
 
 It may also be that the victory of someone with the political will to implement measures advocated by The Economist before the financial crisis of 2007-2008 played a role in this. Or maybe the fall of a narcissist attention-seeker may have made the magazine disillusioned.
 
-In other words, a lot may have changed. However, like before, the nature and evolution of coverage are precisely the objects of study for this podcast. We will be looking here to conduct a fair judgement of Sarkozy: the rise, which is covered around 6th of May, 2007 and the fall, which is coevered around the 15th of May, 2012 when he left office.
+In other words, a lot may have changed. However, like before, the nature and evolution of coverage are precisely the objects of study for this podcast. We will be looking here to conduct a fair judgement of Sarkozy: the rise, which is covered around 6th of May, 2007 and the fall, which is covered around the 15th of May, 2012 when he left office.
 
 # Part 1: Technical Analysis
 
@@ -64,15 +64,15 @@ The statistical sentiment analysis with Python's NLTK package confirms this perc
 
 Now we move onto the second part: the social and political analysis.
 
-Let us begin with a brief statistical analysis. We counted the number of sentences and number of passages in the text dedicated to four themes: Sarkozy's biography, Sarkozy's character, domestic policy and foreign policy.
+Let us begin with a brief statistical analysis. We counted the number of words and number of passages in the text dedicated to four themes: Sarkozy's biography, Sarkozy's character, domestic policy and foreign policy.
 
 In general, we were impressed by the number of references made to the life and character of the former French president. At the same time, the news of Sarkozy's rise seems to devote more space to domestic and foreign policies than the fall article.
 
-Turning to the rise article, 9% of the sentences are dedicated to biographical information, 8% to character, 18% to domestic politics and 13% to foreign policy. In other words, our initial impression seems to exaggerate the attention actually devoted by the article to the biography and character of the newly elected president.
+Turning to the rise article, 9% of the words are dedicated to biographical information, 8% to character, 18% to domestic politics and 13% to foreign policy. Hence, our initial impression seems to exaggerate the attention actually devoted by the article to the biography and character of the newly elected president.
 
-HOwever only looking at only the number of sentences can be misleading. When looking at the number of passages instead, a different picture arises. 4 different passages are dedicated to biography, 13 passages to character, 6 to domestic politics and a mere 3 to foreign policy. The most number of passages are allocated to character, so we see that there is a very real tendency in the rise article to focus on the personality of Sarkozy.
+However only looking at only the number of words can be misleading. When looking at the number of passages instead, a different picture arises. 4 different passages are dedicated to biography, 13 passages to character, 6 to domestic politics and a mere 3 to foreign policy. The most number of passages are allocated to character, so we see that there is a very real tendency in the rise article to focus on the personality of Sarkozy.
 
-Let's look at the fall article in a similar light. In terms of sentences, 16% are about biography, 44% are about character, 21% domestic policy and 5% foreign policy. These numbers are, as expected, much different than what we see in the rise article. It seems that the fall article summarizes the legacy and the fall of Sarkozy through his personality. Foreign policy gets almost no attention. 
+Let's look at the fall article in a similar light. In terms of words, 16% are about biography, 44% are about character, 21% domestic policy and 5% foreign policy. These numbers are, as expected, much different than what we see in the rise article. It seems that the fall article summarizes the legacy and the fall of Sarkozy through his personality. Foreign policy gets almost no attention. 
 
 Looking at the number of passages confirms this result: 4 different passages are dedicated to biography, 8 to character, 3 to domestic policies and just 2 to foreign policies.
 
