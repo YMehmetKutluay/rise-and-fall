@@ -13,63 +13,97 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hello, and welcome to Rise and Fall, Episode 2 - Nicolas Sarkozy.
 
-Last time, we covered the New York Times articles covering the rise and fall of Muammar Qaddafi, between 1969 and 2011. Today, we will be covering The Economist articles covering the rise and fall of Nicolas Sarkozy, between 2007 and 2012.
+Last time, we analyzed the New York Times articles that covered the rise and fall of Muammar Qaddafi, between 1969 and 2011. Today, we will be analyzing The Economist's articles on the rise and fall of Nicolas Sarkozy, between 2007 and 2012. As before, and probably for a long time to come, I'm doing this with my good friend Guilherme Oliveira - who is hosting the Portuguese version of this podcast, called "Ascensao e Queda". If you're more comfortable in Portuguese, I highly recommend you hit the pause button now and go listen to him take on this episode in crystal clear Portuguese!
 
-- Give an introduction and summary of Nicolas Sarkozy. Some motivations for covering Sarkozy:
-  1. He was (and is) a very public figure who came to office with a lot of promise. Ever since leaving office, he has been involved in one scandal after the other.
-  2. Although he served only one term in office, it covered one of the major crises the EU ever faced (the eurozone crisis) and he played a central role in the EU's response to it. He is famous for being one of the major eurozone leaders to openly say that Greece should have never been admitted to the eurozone, much less the EU, in the middle of the eurozone crisis.
-  3. He was the last "Gaullist" - a term that has most likely outlived itself in French politics.
+Nicolas Sarkozy. Sarkozy had a brief stint at the Elysee not so long ago, but we do find him slightly erased from collective memory. However, his passage through the halls of the Elysee was made with a bang. In his election in 2007, he made all sorts of promises, from including more women and minorities in his government to an agenda to restore order on French streets.
 
+He promised and embarked on reforms in social security and education as the financial crisis of 2007-08, and with it, the liberal triumph of the post-Cold War began to explode. At the same time, he tried to move away from French geopolitical traditions and embark on a more productive relationship with his American and British allies when they faced leadership changes in the midst of financial chaos.
+
+He made his promises and did his best to follow them, even if it meant breaking political traditions. This son of emigrants, self-declared Gaullist who had never attended the birthplace of the French political elite, the École Nationel d'administration, went from gaffe to gaffe and scandal to scandal.
+
+And what gaffes they were. When the Greek sovereign debt crisis broke out in 2010, Sarkozy was caught stating that Greece should never have entered either the Eurozone or the EU. Fresh from a divorce, he married in the heart of Elysee with the Italian-French singer and actress Carla Bruni. To celebrate his election, he vacationed on a millionaire's yacht in the Mediterranean.
+
+These and many other factors combined, made him the second president of the Fifth Republic to serve only one term. The first president to achieve this honor was Giscard D'Estaing, who had been involved in controversies with African dictators. A nice little side fact ties in with Sarkozy's relationship to Qaddafi. He has recently been accused about a possible interference by Qaddafi during his election in 2007. 
+
+Despite this, he launched a presidential bid in 2016, but was not able to pass the primary of the Republicans - the successor party of the UMP that Sarkozy had ruled with. Therefore, Guilherme and I decided to refresh our collective memory in order to understand the decline of a figure who reached the highest office in one of the world's major powers.
+
+We do this by looking at the articles in The Economist. Why The Economist? There are three reasons:
+
+First, I have a subscription to the newspaper, so I am able to access their articles online. Second, as before, the software used for part of the analysis presented in this podcast is optimized for texts in English. Finally, Guilherme and I have the impression that The Economist is consistent in its perspective and quality of analysis over the years in question. Our assumption is that two articles, only five years apart, on the same leader should not be very different. So, it's a good newspaper to do this episode with.
+
+The news of the rise of Sarkozy came on the 10th of May, 2007, four days after the second round of the French presidential elections. The news of the fall of Sarkozy came on the 8th of May, 2012, just two days after the second round of the French presidential election. The triumph of a democratic victory by a French leader who was more Anglophone than usual may have excited the magazine.
+
+It may also be that the victory of someone with the political will to implement measures advocated by The Economist before the financial crisis of 2007-2008 played a role in this. Or maybe the fall of a narcissist attention-seeker may have made the magazine disillusioned.
+
+In other words, a lot may have changed. However, like before, the nature and evolution of coverage are precisely the objects of study for this podcast. We will be looking here to conduct a fair judgement of Sarkozy: the rise, which is covered around 6th of May, 2007 and the fall, which is coevered around the 15th of May, 2012 when he left office.
 
 # Part 1: Technical Analysis
 
-Message to Guilherme: In general, the two articles are very different in terms of technical matters. I haven't been able to find a point that they both agree on. So I've listed only the differences here. Let me know if you find some common points!
+We begin with the technical analysis. Right off the bat, the two articles betray what we expected of a consistent newspaper like The Economist. The two stories are two very different pieces of journalism.
 
-1. Declaration of authors: before article has no authors, after article has one author's initials.
+In general terms, while the news of the rise is a meticulously detailed speculative about the future presidency and policies, the news of the fall reads as a short obituary that mourns the personality excesses of the outgoing president.
 
-2. Even though both articles are written in the age of internet - they are for a print medium (The Economist is a weekly magazine). The first article is from the Briefing section of the May 10th 2007 edition. It runs at 3068 words. The second article is not in the weekly edition, so it is not restricted by the length of an A4 page, but only runs at 737 words. In the weekly edition of The Economist, following Sarkozy's defeat, there is no article mentioning it. This is because the second article is a follow-up to the weekly edition article on France's election - where a Sarkozy defeat is predicted. So this is a clear difference between the two articles - one is from the weekly edition, the other is not.
+This first difference is reflected in the focus of the news. The rise article reflects on policies in the pipeline and on Sarkozy's surprising win. Especially since the Socialist party, led by Segolene Royal, was well-placed to win and that despite this, Sarkozy won by a wide margin. The fall article, as briefly mentioned, mainly looks at Sarkozy's failings as a person to keep a hold of the presidency.
 
-3. The first article is the introduction of the Sarkozy presidency. The story consists of two main threads - the surprising election of Sarkozy (by a historically wide margin) and his potential policies. This explains the long word count. Although The Economist's perspective is favorable to French center-of-right politics, the article itself is remarkably well-balanced. The second article, on the other hand, does not present itself as a complete conclusion of the first article. Some points are mentioned - he came into office with a strong mandate, he made a lot promises and delivered on some of them - but not all. Almost no mention is made of his foreign policy, other than that he "was able to keep France on the world stage".  
+The second difference relates to the tone. The Economist, like any newspaper, has a political stance which makes it favorable to the French center-of-right, a place that Sarkozy occupied. So the rise article is well-poised to be a one-sided, emotional celebratory article, but instead it is a surprisingly well-balanced analysis of Sarkozy, Segolene Royal and the election. The fall article, on the other hand, remarkably betrays the newspaper's political stance. To be fair, some less-subjective and emotive points are mentioned - he took office with a strong mandate, made many promises and managed to keep some. But almost no mention is made of his foreign policy, other than that he "was able to keep France on the world stage."
 
-4. That already ties into the tone - the editors of The Economist didn't think that running an extensive piece on Sarkozy leaving office (or Hollande entering) warranted it's own article in the weekly edition. There is no great upset to make a story out of. The second article reads like an obituary, where the sentence "what a waste" is repeated twice to summarize Sarkozy's time in office. 
+The third difference, while being not as significant, stands out at the very beginning of the articles: the rise article has no authors; whereas the fall article begins with the initials of the author.
 
-5. It should come as no surprise then, that the NLTK sentiment analysis shows a 50% uptick in the negative sentiments between the two article (0.072 vs 0.11). 
+The fourth difference comes from the way the articles are published. Although both news stories are from the internet age, news of the rise came in The Economist's weekly paper magazine. The news of the fall, however, is an online continuation of the magazine's paper article regarding the French election of 2012, in which Sarkozy's defeat had already been predicted. 
+
+That being said, the rise article has 2975 words, which is far more than the 724 words of the fall article, which was published online. So even though the fall article was not physically bound by the paper it was printed on, the author saw no reason to utilize this space.
+
+Guilherme and I speculate that this difference is driven by the content from one article to the other. Perhaps the editors at The Economist did not think it appropriate, or useful even, to publish an extensive article on Sarkozy's departure in their weekly edition. Maybe they felt that this story had already been told.
+
+The difference in the means of publication can also be related to the fourth difference we just talked about: the articles do not match in tone. Once again, the rise article seems to take a balanced look at the prospects of a Sarkozy presidency. The fall article looks like an obituary, where the phrase "what a waste" is repeated twice to sum up Sarkozy's time in office.
+
+The statistical sentiment analysis with Python's NLTK package confirms this perception. The proportion of sentences with a negative sentiment increases by more than half from the rise article, with 7.2%, to the fall article with 11%.
 
 
 # Part 2: Political and Social Analysis
 
-Common points
+Now we move onto the second part: the social and political analysis.
 
-1. The legacy of Chirac. In the before and after article, this legacy is talked about in the same way. Sarkozy broke away from the Chirac style of governing, but still styled himself as a Gaullist. 
+Let us begin with a brief statistical analysis. We counted the number of sentences and number of passages in the text dedicated to four themes: Sarkozy's biography, Sarkozy's character, domestic policy and foreign policy.
 
-2. Sarkozy's historically big mandate. Both articles refer to how the beginning of the Sarkozy presidency, and the rest of it, is filled with energy.
+In general, we were impressed by the number of references made to the life and character of the former French president. At the same time, the news of Sarkozy's rise seems to devote more space to domestic and foreign policies than the fall article.
 
-3. Sarkozy's difference from former politicians. He is not ENA educated and speaks plainly.
+Turning to the rise article, 9% of the sentences are dedicated to biographical information, 8% to character, 18% to domestic politics and 13% to foreign policy. In other words, our initial impression seems to exaggerate the attention actually devoted by the article to the biography and character of the newly elected president.
 
-4. Some domestic policies - pension and labor market reforms. The first article pre-empts pension and labor market reforms. The second article mentions how these failed to pass. In both articles, Sarkozy's approach to the labor market is simple: he wants the French to work more. 
+HOwever only looking at only the number of sentences can be misleading. When looking at the number of passages instead, a different picture arises. 4 different passages are dedicated to biography, 13 passages to character, 6 to domestic politics and a mere 3 to foreign policy. The most number of passages are allocated to character, so we see that there is a very real tendency in the rise article to focus on the personality of Sarkozy.
 
-5. Transatlantic leanings - more specifically that he is an Americanophile. Not only his good personal relationship with US presidents, but also his insistence to "not blame everything on the Americans", reveals itself in both articles.
+Let's look at the fall article in a similar light. In terms of sentences, 16% are about biography, 44% are about character, 21% domestic policy and 5% foreign policy. These numbers are, as expected, much different than what we see in the rise article. It seems that the fall article summarizes the legacy and the fall of Sarkozy through his personality. Foreign policy gets almost no attention. 
 
-6. The votes of Le Pen - the first article links Sarkozy's victory to his capturing of the far-right votes, as well as the centrist votes. The second article links Sarkozy's defeat to his inability to capture far-right votes, and centrist votes.
+Looking at the number of passages confirms this result: 4 different passages are dedicated to biography, 8 to character, 3 to domestic policies and just 2 to foreign policies.
 
-Differences
+In other words, biographical data plays an important role. And this is one area where the articles have common ground. For example, both articles mention how Sarkozy broke with the governing of Chirac, his predecessor and political godparent, despite declaring himself a Gaullist. Both articles also stress Sarkozy's difference in upbringing as compared to the political elite of France - his multi-ethnic background and that he did not study in the Ecole Nationale d'Administration, the school for all French politicians and technocrats.
 
-1. The first article gives a lot of room to discussion on foreign policy. There are some things that are outdated by 2012: Turkey's candidacy to the EU, France's rejection of the EU constitution in 2003 and the issue of supporting the war in Iraq. Thus the second article doesn't have any of these. 
+As we have seen, character also plays a central role in the two articles. Here there are differences as well as similarities. Both articles stress the personal aura of power that Sarkozy radiated, Also, contrary to French political class traditions, his speech was frank and direct. One point of difference is that the rise article viewed Sarkozy's energy as a force for reform. In the fall article, this energy is a disorienting force that the French electorate got rid of as soon as they could.
 
-2. The issue of having ethnic minorities in the cabinet. The first article is hopeful about it. The second article shows that this didn't happen.
+Moving onto domestic policy, both articles mention Sarkozy's efforts to reform the labor market, in line with his message that the French should work harder. An interesting difference arises regarding which part of the electorate he is able to get votes from. The rise article underlines, multiple times, Sarkozy's ability to garner the far right and the center vote. The fall article focuses on Sarkozy's inability to obtain these two critical portions of the electorate. Another difference is the inclusion of ethnic minorities in the cabinet. The rise article is very hopeful, whereas the fall article speaks of disappointing failure.
+
+And at last we come to foreign policy. Here we also have some similarities and differences. The most important similarity is his ability to connect with English-speaking world leaders. As far as is possible with French politicians, he is an English speaker who cultivated good personal relationships with the leaders of the United States. As both articles mention, for him it was important to "not to blame the Americans for everything". A big difference is that the rise article discusses issues as diverse as Turkey's candidacy for the EU, France's rejection of the 2003 EU constitution and opposition to the war in Iraq. The fall article does not mention any of these issues.
 
 # Part 3: Interesting Nuggets
 
-1. What is NOT mentioned in the after article - no mention of the eurozone crisis! Sarkozy was president of a major EU and global power between 2007-2012, and was central in the EU's response to the Greek and eurozone crisis. No mention is made of this. The financial crisis comes up only once, when discussing the unemployment rate during his tenure.
+We are now at the third and final part of our episode: the interesting nuggets.
 
-2. Hollande is mentioned in the before article (as Segolene Royal's partner), but not mentioned in the after article (even though he won the election). 
+The first nugget is the elephant in the room. Sarkozy was the president of a major EU, and world, power between 2007-2012. This is the period of the financial crisis, the Greek debt crisis and the Eurozone crisis. He was instrumental in the EU's response to the last of these two crises. The fall article does not refer, even superficially, to any of this. Even the 2007-2008 financial crisis, an event that was arguably a watershed moment, comes up only once. It comes up when discussing the stubbornly high unemployment rate during Sarkozy's presidency.
 
-  3. Famous names from the before article: A little known Christine Lagarde is mentioned as a possible finance minister. A very well known Dominique Strauss-Kahn criticizes Segolene Royal at length about her mismanagement of the election and of messaging.
+The second nugget refers to unexpected name dropping. François Hollande, the successor to Sarkozy, is mentioned in the rise article but not the in the fall article. In the rise article, he is mentioned as being the partner of Segolene Royal, the then leader of the Socialists.
 
-4. Sarkozy's personality jumps out - in the first article we see him as close friends of George Bush and Tony Blair. In the second article, his high-profile relationship with Carla Bruni and personal criticism of Silvio Berlusconi is brought up. These don't have much to do with politics (the leaders of France, the USA and the UK - thanks to their countries' alignment on the world stage - are destined to get along together. Whether they like it or not), but with Sarkozy as a person. 
+Speaking of names and interesting nuggets, the rise article is full of figures that seemed not so important then, but proved to be consequential later on. Christine Lagarde, who would later on lead the IMF and ECB, is mentioned as a possible trade minister. Dominique Strauss-Kahn, who was leading the IMF but would fall from grace due to a massive sexual assault scandal, takes stage as a fierce critic of Segolene Royal. It's an interesting read, actually, if all of those names and events are still fresh in your mind.
+
+The third nugget refers to Sarkozy's friendships. The rise article refers to his politically consequential ties with leaders such as George W. Bush and Tony Blair. The fall article focuses on his ties with people that show a problematic character - such as his wife Carla Bruni, or personal criticism of Silvio Berlusconi.
+
+The fourth nugget are some of the accidental foreshadowing that the rise article did. In this article, there is an implicit recommendation that the French Socialist party should follow Tony Blair's third way. We also see both the rise and fall articles referring to Sarkozy as being a much-needed break in French political traditions. Given what we see happens with Hollande later on, and how Macron's rise to power was driven by this exact same message of change - The Economist was definitely onto something.
 
 # Conclusion
 
-1. Re-iterate findings from all three parts. Re-iterate that the articles are different in nature (one is printed, the other isn't) and tone. Underline differences in social/political sphere as well.
+And that is that - we have reached the end of the episode. Sarkozy, the man with a personality that could fill a room and the energy to do so quickly, led France through 5 transformative years. Thank you very much for listening!
 
-2. In hindsight, we can see that he is the first attempt at a Macron-style presidency - with the exception that the articles link his rise and fall to office to the support he received from Le Pen's voters. 
+Please share your views, suggestions for future episodes and everything else that comes to mind on our Facebook page, called “Rise and Fall Podcast”. We also post fun facts about other political leaders or events from time to time. The posts are in English, followed by Portuguese. 
+
+You can also get in touch via email - just drop us a line at rise.and.fall.press@gmail.com. We only ask that you make your comments and suggestions constructively.
+
+Until next time!
