@@ -1,0 +1,28 @@
+---
+title: "Luiz Inacio Lula de Silva"
+author: "Guilherme Oliveira and Mehmet Kutluay"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+# Part 1: Technical Analysis
+
+Similarities:
+
+Differences:
+
+# Part 2: Social and Political Analysis
+
+Similarities:
+
+Differences:
+
+# Part 3: Interesting Nuggets
+
+# Conclusion
