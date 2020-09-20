@@ -11,6 +11,23 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
+Hello, and welcome to Rise and Fall. Episode 3. Luiz Inacio Lula de Silva.
+
+Last time, we analyzed articles from The Economist that covered the presidency of Nicolas Sarkozy between 2007 and 2012. Today, we will be shifting our attention to the Americas and look at how El Pais covered Luiz Inacio Lula de Silva's first and last day in office. For simplicity, and to stop committing felonies to any Portuguese-speaking ears, I will refer to him as Lula from here on.
+
+Notes on background:
+
+1. Stress that he was one of the union leaders who transitioned into politics in the 80s, and helped negotiate Brazil's constitution. He tried multiple times to become president afterwards, and finally succeeded on his third attempt.
+2. He became president in the first peaceful democratic handing of power in Brazil's modern history. However, he was also at the same time very different from mainstream politicians. He came from a working class background, and didn't have the fine higher education that many of his political peers had.
+3. He was also the first left-wing president Brazil had had in a long time. This came on the heels of a financial crisis, where Brazil got help from the IMF and was busy paying off its loans. 
+4. Lula promised to create a win-win situation for everyone. The loans would be repaid, the poor would be supported, corruption in government eradicated and business would thrive. These pledges are not surprising in and of themselves - politicians say these things all the time. What makes Lula stand out, however, is that he delivered a lot of it. 
+
+Notes on why El Pais:
+
+1. We wanted to look at a significant political leader from a non-English newspaper, and one that is known for it's coverage of Latin America.
+2. El Pais is also famously left wing. In fact it is a bit too famously left wing for this use case - it was revealed in 2016 that it's Brazilian subsidiary, El Pais Brasil, had received a lot of funds from the Workers Party of Lula.
+3. So we expect a very positive coverage of Lula, in both rise and fall articles.
+
 # Part 1: Technical Analysis
 
 Similarities:
