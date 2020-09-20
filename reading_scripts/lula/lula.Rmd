@@ -28,18 +28,53 @@ Notes on why El Pais:
 2. El Pais is also famously left wing. In fact it is a bit too famously left wing for this use case - it was revealed in 2016 that it's Brazilian subsidiary, El Pais Brasil, had received a lot of funds from the Workers Party of Lula.
 3. So we expect a very positive coverage of Lula, in both rise and fall articles.
 
+General notes on rise article:
+
+* A lot of emphasis is given on Lula declaring that there will be no radical shifts and that all members of society will be represented.
+* There is a good deal of flattery on Lula himself - for instance, that he "dressed impeccably" for the inaguaration. 
+* There is an implicit nod at the historical nature of peaceful transition of power in Brazil. Also at the fact that Brazil is at the tail end of a financial crisis, and that austerity looms.
+* In terms of actual policies, not much is being said. For domestic policies, we see a couple of mentions of fighting corruption, improving access to education and tackling poverty. For foreign policy, we see an anti-American, pro-unilateralism stance. But with a degree of reconciliation - the second paragraph starts with the declaration that existing obligations will be honored. This is an implicit nod to the IMF loans being repaid.
+
+General notes on fall article:
+
+* Note that the article is written while Lula is still in office, but it's clear that he will not be in office soon.
+* There is a sense of admiration for Lula - that his presidency consitutes a before-after split for Brazil.
+* There is a lot more emphasis on Lula the person. That he is emphatic towards the poor, that he speaks their language (as imperfect as it may be). 
+* There is essentially one sentence to describe the policies of Lula throughout his presidency. The rest of the article is about Lula's charm, what his relationship to Dilma Rouseff might be like, whether he'll come back to the office later on and what Brazil's politics look like.
+* There is a lot of hope for Brazil going forward in terms of pluralism. The article talks about a revived opposition and some innovations for BRazilian politics - like potential presidential contenders for 2014 from the Green Party or from a coalition of center-left and centre-right factions.
+
+
 # Part 1: Technical Analysis
 
-Similarities:
+Similarities: 
+
+1. Sentiment - the sentiment analysis is done in three parts. On the whole text, paragraph by paragraph and sentence by sentence. Due to how the NLP model is trained (based on Spanish reviews of products from online retailers), it is actually not designed to make conclusions about sentences/paragraphs in news articles. So we do the sentiment analysis on three levels, to see if there are any intra-article differences. The conclusion is that both articles score very similar sentiment scores. This is not surprising - they are both brimmingly optimistic.
+
+2. Direct/Indirect speech?
+
+3. Length of sentences?
 
 Differences:
+
+1. Word count - the fall article is longer (945 words) than the rise article (704 words)
+
+2. The rise article has an author declared, whereas the fall article has no declared article. Even though both are from the printed edition of El Pais.
+
+3. The rise article uses a lot of quotes to build up their story. The fall article does not do any of this - even though it's not hard to imagine this particular article quoting a history or political science professor/pundit.
+
+4. Content - the rise article gives much more room for policies. It seems to be involved in an ongoing debate about whether Lula is a wildcard populist (his background and upbringing certainly would say so). El Pais is clearly in the "he will be good for this country, and "
 
 # Part 2: Social and Political Analysis
 
 Similarities:
 
+
 Differences:
 
 # Part 3: Interesting Nuggets
+
+1. No mention of the 2008-2009 financial crisis and end of the commodity boom in the fall article. Or even a mention of the commodity boom in general, that helped Brazil out so much in this period. 
+
+2. 
 
 # Conclusion
