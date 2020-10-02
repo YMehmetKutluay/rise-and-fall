@@ -11,15 +11,15 @@ import pandas as pd
 
 ## Sentiment Analysis with NLTK
 # Select political leader
-leader = "sarkozy"
+leader = "lula"
 # Initialize sentiment intensity analyzer (see https://www.nltk.org/api/nltk.sentiment.html)
 sia = SentimentIntensityAnalyzer()
 # Get before and after text files as single strings
 file_path = os.path.join(os.getcwd(), "data", leader, "after.txt")
-with open(file_path, 'r') as file:
+with open(file_path, 'r', encoding = "utf-8") as file:
     after = file.read().replace("\n", "")
 file_path = os.path.join(os.getcwd(), "data", leader, "before.txt")
-with open(file_path, 'r') as file:
+with open(file_path, 'r', encoding = "utf-8") as file:
     before = file.read().replace("\n", "")
 # Get sentiment score dictionaries
 sentiments = {
