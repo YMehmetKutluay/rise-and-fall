@@ -10,10 +10,11 @@ import os
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import spacy
 import pandas as pd
+import sys
 
 ## Sentiment Analysis with NLTK
-# Select political leader
-leader = "lula"
+# Select political leader from command line
+leader = sys.argv[1]
 # Initialize sentiment intensity analyzer (see https://www.nltk.org/api/nltk.sentiment.html)
 sia = SentimentIntensityAnalyzer()
 # Print
