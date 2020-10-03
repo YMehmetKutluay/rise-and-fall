@@ -17,6 +17,7 @@ with open(file_path, 'r', encoding = "utf-8") as file:
 # Sentiment analysis, see https://pypi.org/project/sentiment-analysis-spanish/
 # Initialize sentiment analysis class
 sentiment = sentiment_analysis.SentimentAnalysisSpanish()
+print("--- PARAGRAPH BY PARAGRAPH ANALYSIS ---")
 # Make before article into paragraph-based list and do sentiment analysis
 para_before = str_before.split("\n")
 before_sentiment = list()
@@ -35,7 +36,7 @@ print("Average sentiment for after article is {:.4f}".format(
 # Get ratio based result to see after/before sentiment
 print("Ratio of after/before sentiment is thus {:.4f}".format(
     (sum(after_sentiment)/len(after_sentiment))/(sum(before_sentiment)/len(before_sentiment))))
-
+print("--- SENTENCE BY SENTENCE ANALYSIS ---")
 # Now do this per sentence
 sen_before = str_before.replace("\n", "").split(".")
 before_sentiment = list()
