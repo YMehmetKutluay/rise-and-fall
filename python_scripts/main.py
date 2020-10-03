@@ -4,6 +4,8 @@
 # Inspiration: https://amiham-singh.github.io/ 
 # Small example: https://towardsdatascience.com/https-towardsdatascience-com-algorithmic-trading-using-sentiment-analysis-on-news-articles-83db77966704
 # Dependencies
+# Print 
+print("Initializing sentiment analyzer")
 import os
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import spacy
@@ -14,6 +16,8 @@ import pandas as pd
 leader = "lula"
 # Initialize sentiment intensity analyzer (see https://www.nltk.org/api/nltk.sentiment.html)
 sia = SentimentIntensityAnalyzer()
+# Print
+print("Loading data")
 # Get before and after text files as single strings
 file_path = os.path.join(os.getcwd(), "data", leader, "after.txt")
 with open(file_path, 'r', encoding = "utf-8") as file:
@@ -26,8 +30,13 @@ sentiments = {
     "before" : sia.polarity_scores(before),
     "after" : sia.polarity_scores(after)
     }    
-
+# Print
+print("The NLTK sentiment analysis is as follows:")
+for k, y in sentiments.items():
+    print(k, "-->", y)
 ## SpaCy Tokenization
+# Print
+print("Initiating word type analysis")
 # Load English NLP decoder
 nlp = spacy.load("en_core_web_sm")
 # Tokenize
@@ -75,3 +84,16 @@ pd_after = (
 after_word_count = pd_after[pd_after["pos_value"] != "PUNCT"]["after_count"].sum()
 # Get relative word type counts
 pd_after["after_relative_count"] = pd_after["after_count"]/n_rows
+
+# Make into one general dataframe
+pd_both = (
+        pd_before
+        .merge(pd_after)
+        # Drop columns
+        .drop(["before_count", "after_count"], axis = 1)
+        # Make decimals easier to read
+        .round(2)
+        )
+# Print
+print("The overall share of word types in both articles:")
+print(pd_both.to_string(index = False))

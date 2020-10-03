@@ -1,18 +1,16 @@
 # Dependencies
 import os
-import spacy
-import pandas as pd
 from sentiment_analysis_spanish import sentiment_analysis
 
 # Select political leader
 leader = "lula"
 
 # Get before and after text files as single strings
-file_path = os.path.join(os.getcwd(), "data", leader, "before.txt")
+file_path = os.path.join(os.getcwd(), "data", leader, "spanish", "before.txt")
 with open(file_path, 'r', encoding = "utf-8") as file:
     str_before = file.read()
 
-file_path = os.path.join(os.getcwd(), "data", leader, "after.txt")
+file_path = os.path.join(os.getcwd(), "data", leader, "spanish", "after.txt")
 with open(file_path, 'r', encoding = "utf-8") as file:
     str_after = file.read()
 
