@@ -25,5 +25,7 @@ The directory holds the following folders:
 
 ## Run the NLP Analysis
 
-Simply write in the political leader you are interested in (and that is available) into 
-the `leader` variable in the `python_scripts/main.py` script. After that, run said script.
+You can run the entire NLP analysis on the command line. Go to the main directory of this
+repository and run the command `python python_scripts/main.py "leader"`. For the `leader`
+argument, fill in the last name, in small letters, of the political leader you would 
+like to run the analysis for. For instance, for Sarkozy, you can run `python python_scripts/main.py "sarkozy"`.

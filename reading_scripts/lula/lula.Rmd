@@ -1,0 +1,81 @@
+---
+title: "Luiz Inacio Lula de Silva"
+author: "Guilherme Oliveira and Mehmet Kutluay"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Hello, and welcome to Rise and Fall. Episode 3. Luiz Inacio Lula de Silva.
+
+Last time, we analyzed articles from The Economist that covered the presidency of Nicolas Sarkozy between 2007 and 2012. Today, we will be shifting our attention to the Americas and look at how El Pais covered Luiz Inacio Lula de Silva's first and last day in office. For simplicity, and to stop committing felonies to any Portuguese-speaking ears, I will refer to him as Lula from here on.
+
+Notes on background:
+
+1. Stress that he was one of the union leaders who transitioned into politics in the 80s, and helped negotiate Brazil's constitution. He tried multiple times to become president afterwards, and finally succeeded on his third attempt.
+2. He became president in the first peaceful democratic handing of power in Brazil's modern history. However, he was also at the same time very different from mainstream politicians. He came from a working class background, and didn't have the fine higher education that many of his political peers had.
+3. He was also the first left-wing president Brazil had had in a long time. This came on the heels of a financial crisis, where Brazil got help from the IMF and was busy paying off its loans. 
+4. Lula promised to create a win-win situation for everyone. The loans would be repaid, the poor would be supported, corruption in government eradicated and business would thrive. These pledges are not surprising in and of themselves - politicians say these things all the time. What makes Lula stand out, however, is that he delivered a lot of it. 
+
+Notes on why El Pais:
+
+1. We wanted to look at a significant political leader from a non-English newspaper, and one that is known for it's coverage of Latin America.
+2. El Pais is also famously left wing. In fact it is a bit too famously left wing for this use case - it was revealed in 2016 that it's Brazilian subsidiary, El Pais Brasil, had received a lot of funds from the Workers Party of Lula.
+3. So we expect a very positive coverage of Lula, in both rise and fall articles.
+
+General notes on rise article:
+
+* A lot of emphasis is given on Lula declaring that there will be no radical shifts and that all members of society will be represented.
+* There is a good deal of flattery on Lula himself - for instance, that he "dressed impeccably" for the inaguaration. 
+* There is an implicit nod at the historical nature of peaceful transition of power in Brazil. Also at the fact that Brazil is at the tail end of a financial crisis, and that austerity looms.
+* In terms of actual policies, not much is being said. For domestic policies, we see a couple of mentions of fighting corruption, improving access to education and tackling poverty. For foreign policy, we see an anti-American, pro-unilateralism stance. But with a degree of reconciliation - the second paragraph starts with the declaration that existing obligations will be honored. This is an implicit nod to the IMF loans being repaid.
+
+General notes on fall article:
+
+* Note that the article is written while Lula is still in office, but it's clear that he will not be in office soon.
+* There is a sense of admiration for Lula - that his presidency consitutes a before-after split for Brazil.
+* There is a lot more emphasis on Lula the person. That he is emphatic towards the poor, that he speaks their language (as imperfect as it may be). 
+* There is essentially one sentence to describe the policies of Lula throughout his presidency. The rest of the article is about Lula's charm, what his relationship to Dilma Rouseff might be like, whether he'll come back to the office later on and what Brazil's politics look like.
+* There is a lot of hope for Brazil going forward in terms of pluralism. The article talks about a revived opposition and some innovations for BRazilian politics - like potential presidential contenders for 2014 from the Green Party or from a coalition of center-left and centre-right factions.
+
+
+# Part 1: Technical Analysis
+
+Similarities: 
+
+1. Sentiment - the sentiment analysis is done in three parts. On the whole text, paragraph by paragraph and sentence by sentence. Due to how the NLP model is trained (based on Spanish reviews of products from online retailers), it is actually not designed to make conclusions about sentences/paragraphs in news articles. So we do the sentiment analysis on three levels, to see if there are any intra-article differences. The conclusion is that both articles score very similar sentiment scores. This is not surprising - they are both brimmingly optimistic.
+
+2. Direct/Indirect speech?
+
+3. Length of sentences?
+
+Differences:
+
+1. Word count - the fall article is longer (945 words) than the rise article (704 words)
+
+2. The rise article has an author declared, whereas the fall article has no declared article. Even though both are from the printed edition of El Pais.
+
+3. The rise article uses a lot of quotes to build up their story. The fall article does not do any of this - even though it's not hard to imagine this particular article quoting a history or political science professor/pundit.
+
+4. Content - the rise article gives much more room for policies. It seems to be involved in an ongoing debate about whether Lula is a wildcard populist (his background and upbringing certainly would say so). El Pais is clearly in the "he will be good for this country, and do not worry" camp. Yet there is caution. The fall article almost treats him like the Messiah, even though they admit to his party's authoritarian-like tendencies and his wild mood swings.
+
+# Part 2: Social and Political Analysis
+
+Similarities:
+
+1. 
+
+Differences:
+
+# Part 3: Interesting Nuggets
+
+1. No mention of the 2008-2009 financial crisis and end of the commodity boom in the fall article. Or even a mention of the commodity boom in general, that helped Brazil out so much in this period. 
+
+2. The first version of the rise article had the inaguaration where Latin American countries sent important people. But even the US did not send anyone important.
+
+# Conclusion
