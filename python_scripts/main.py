@@ -19,17 +19,17 @@ leader = sys.argv[1]
 sia = SentimentIntensityAnalyzer()
 # Print
 print("Loading data")
-# Get before and after text files as single strings
-file_path = os.path.join(os.getcwd(), "data", leader, "after.txt")
+# Get rise and fall text files as single strings
+file_path = os.path.join(os.getcwd(), "data", leader, "fall.txt")
 with open(file_path, 'r', encoding = "utf-8") as file:
-    after = file.read().replace("\n", "")
-file_path = os.path.join(os.getcwd(), "data", leader, "before.txt")
+    fall = file.read().replace("\n", "")
+file_path = os.path.join(os.getcwd(), "data", leader, "rise.txt")
 with open(file_path, 'r', encoding = "utf-8") as file:
-    before = file.read().replace("\n", "")
+    rise = file.read().replace("\n", "")
 # Get sentiment score dictionaries
 sentiments = {
-    "before" : sia.polarity_scores(before),
-    "after" : sia.polarity_scores(after)
+    "rise" : sia.polarity_scores(rise),
+    "fall" : sia.polarity_scores(fall)
     }    
 # Print
 print("The NLTK sentiment analysis is as follows:")
@@ -41,57 +41,57 @@ print("Initiating word type analysis")
 # Load English NLP decoder
 nlp = spacy.load("en_core_web_sm")
 # Tokenize
-token_before = nlp(before)
-token_after = nlp(after)
+token_before = nlp(rise)
+token_after = nlp(fall)
 ## Count adjectives and verbs for both articles
-# For before article
+# For rise article
 # Initiate pandas dataframe
-pd_before = pd.DataFrame({"word":[], "pos_value":[]})
+pd_rise = pd.DataFrame({"word":[], "pos_value":[]})
 for token in token_before:
     # Make row of data
     sub_pd = pd.DataFrame({"word":str(token), "pos_value":token.pos_}, index = [0])
-    # Append to pd_before
-    pd_before = pd_before.append(sub_pd, ignore_index = True)
+    # Append to pd_rise
+    pd_rise = pd_rise.append(sub_pd, ignore_index = True)
 # Group by pos_value and count
-n_rows = len(pd_before)
-pd_before = (
-    pd_before
+n_rows = len(pd_rise)
+pd_rise = (
+    pd_rise
     .groupby("pos_value")
-    .agg(before_count = ("pos_value", "count"))
+    .agg(rise_count = ("pos_value", "count"))
     .reset_index()
     )
 # Get word count
-before_word_count = pd_before[pd_before["pos_value"] != "PUNCT"]["before_count"].sum()
+before_word_count = pd_rise[pd_rise["pos_value"] != "PUNCT"]["rise_count"].sum()
 # Get relative word type counts
-pd_before["before_relative_count"] = pd_before["before_count"]/n_rows
+pd_rise["rise_relative_count"] = pd_rise["rise_count"]/n_rows
 
-# For after article
+# For fall article
 # Initiate pandas dataframe
-pd_after = pd.DataFrame({"word":[], "pos_value":[]})
+pd_fall = pd.DataFrame({"word":[], "pos_value":[]})
 for token in token_after:
     # Make row of data
     sub_pd = pd.DataFrame({"word":str(token), "pos_value":token.pos_}, index = [0])
-    # Append to pd_before
-    pd_after = pd_after.append(sub_pd, ignore_index = True)
+    # Append to pd_rise
+    pd_fall = pd_fall.append(sub_pd, ignore_index = True)
 # Group by pos_value and count
-n_rows = len(pd_after)
-pd_after = (
-    pd_after
+n_rows = len(pd_fall)
+pd_fall = (
+    pd_fall
     .groupby("pos_value")
-    .agg(after_count = ("pos_value", "count"))
+    .agg(fall_count = ("pos_value", "count"))
     .reset_index()
     )
 # Get word count
-after_word_count = pd_after[pd_after["pos_value"] != "PUNCT"]["after_count"].sum()
+after_word_count = pd_fall[pd_fall["pos_value"] != "PUNCT"]["fall_count"].sum()
 # Get relative word type counts
-pd_after["after_relative_count"] = pd_after["after_count"]/n_rows
+pd_fall["fall_relative_count"] = pd_fall["fall_count"]/n_rows
 
 # Make into one general dataframe
 pd_both = (
-        pd_before
-        .merge(pd_after)
+        pd_rise
+        .merge(pd_fall)
         # Drop columns
-        .drop(["before_count", "after_count"], axis = 1)
+        .drop(["rise_count", "fall_count"], axis = 1)
         # Make decimals easier to read
         .round(2)
         )
