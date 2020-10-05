@@ -1,4 +1,4 @@
-# Welcome to before-and-after!
+# Welcome to rise-and-fall!
 This is the repository that contains the Python and markdown scripts that are used in 
 making the [Rise and Fall](https://anchor.fm/rise-and-fall) podcast - created by 
 Mehmet Kutluay and Guilherme Oliveira. The podcast is about analyzing news articles 
