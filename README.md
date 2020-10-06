@@ -1,14 +1,11 @@
-# Welcome to before-and-after!
-This is the repository that contains the Python and markdown scripts that are used in 
-making the [Rise and Fall](https://anchor.fm/rise-and-fall) podcast - created by 
-Mehmet Kutluay and Guilherme Oliveira. The podcast is about analyzing news articles 
+# Welcome to rise-and-fall!
+This is the repository that contains the Python and markdown scripts that are used in making the [Rise and Fall](https://anchor.fm/rise-and-fall) podcast - created by 
+Mehmet Kutluay and Guilherme Oliveira. The podcast is about analyzing news articles
 from the first and last day of selected political leaders.
 
-Here you can find the code and data used to make the quantitative analyses discussed 
-in the podcast episodes. The NLP packages that are utilized are [SpaCy](https://spacy.io/) and 
-[NLTK](https://www.nltk.org/). 
+Here you can find the code and data used to make the quantitative analyses discussed in the podcast episodes. The NLP packages that are utilized are [SpaCy](https://spacy.io/) and [NLTK](https://www.nltk.org/) for English and [sentiment-analysis-spanish](https://github.com/sentiment-analysis-spanish/sentiment-spanish) for Spanish. 
 
-Feel free to fork/clone and comment on possible improvements, by opening up issues. 
+Feel free to fork/clone and comment on possible improvements, by opening up issues.
 All feedback is welcome!
 
 # Getting Started
@@ -25,7 +22,17 @@ The directory holds the following folders:
 
 ## Run the NLP Analysis
 
-You can run the entire NLP analysis on the command line. Go to the main directory of this
-repository and run the command `python python_scripts/main.py "leader"`. For the `leader`
-argument, fill in the last name, in small letters, of the political leader you would 
-like to run the analysis for. For instance, for Sarkozy, you can run `python python_scripts/main.py "sarkozy"`.
+You can run the entire NLP analysis on the command line. Go to the main directory of this repository and make sure you have the depencies installed. You can do this by
+running:
+
+```
+pip install -r requirements.txt
+```
+
+After that, it is very simple. Simply run the command: 
+
+```
+python python_scripts/main.py "leader" 
+```
+
+For the `leader` argument, fill in the last name, in small letters, of the political leader you would like to run the analysis for. For instance, for Sarkozy, you can run `python python_scripts/main.py "sarkozy"`.

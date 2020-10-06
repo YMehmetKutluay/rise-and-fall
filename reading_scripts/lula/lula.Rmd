@@ -13,20 +13,43 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hello, and welcome to Rise and Fall. Episode 3. Luiz Inacio Lula de Silva.
 
-Last time, we analyzed articles from The Economist that covered the presidency of Nicolas Sarkozy between 2007 and 2012. Today, we will be shifting our attention to the Americas and look at how El Pais covered Luiz Inacio Lula de Silva's first and last day in office. For simplicity, and to stop committing felonies to any Portuguese-speaking ears, I will refer to him as Lula from here on.
+Last time, we analyzed articles from The Economist that covered the presidency of Nicolas Sarkozy between 2007 and 2012. Today, we will be shifting our attention to the Americas and look at how El Pais covered Luiz Inacio Lula de Silva's first and last day in office - the 1st of January 2003 and 31st of December 2010. For simplicity, and to stop committing felonies to any Portuguese-speaking ears, I will refer to him as Lula from here on.
 
-Notes on background:
+Coming from Turkey, I am naturally disposed to be more than ignorant about politicians and leaders from countries outside of the U.S., Europe and the Middle East. However, Lula was a name that I'd heard of before. I'd be willing to bet that many other people might say the same thing - that he is the first Brazilian president they'd heard of, during his term. Ten years after his departure from the presidency, the popularity of his mandates appears to have been matched by the controversy over his legacy. 
 
-1. Stress that he was one of the union leaders who transitioned into politics in the 80s, and helped negotiate Brazil's constitution. He tried multiple times to become president afterwards, and finally succeeded on his third attempt.
-2. He became president in the first peaceful democratic handing of power in Brazil's modern history. However, he was also at the same time very different from mainstream politicians. He came from a working class background, and didn't have the fine higher education that many of his political peers had.
-3. He was also the first left-wing president Brazil had had in a long time. This came on the heels of a financial crisis, where Brazil got help from the IMF and was busy paying off its loans. 
-4. Lula promised to create a win-win situation for everyone. The loans would be repaid, the poor would be supported, corruption in government eradicated and business would thrive. These pledges are not surprising in and of themselves - politicians say these things all the time. What makes Lula stand out, however, is that he delivered a lot of it. 
+Lula was only elected in the fourth election to which he ran. For some, this fact proves the character of a man who, unlike his predecessors, was born into a poor family in the Northeast who had to find a place in the sun in the industrial world of São Paulo.
 
-Notes on why El Pais:
+For others, Lula's persistence was the sign of an ambitious man, who spent the 1980s and 1990s building a party and connections in the corridors of power to subvert the young Brazilian democracy. The scandal over the purchase of political favors in Lula's first term, known as a monthly allowance, was for them the first sign of what was to come.
 
-1. We wanted to look at a significant political leader from a non-English newspaper, and one that is known for it's coverage of Latin America.
-2. El Pais is also famously left wing. In fact it is a bit too famously left wing for this use case - it was revealed in 2016 that it's Brazilian subsidiary, El Pais Brasil, had received a lot of funds from the Workers Party of Lula.
-3. So we expect a very positive coverage of Lula, in both rise and fall articles.
+When he won, Lula became the first openly leftist president since 1964, the year of the coup that started the military dictatorship in Brazil. It was the same military dictatorship that ordered Lula arrested for organizing strikes. For some, it was the starting point for a new Brazil, which saw the expansion of social programs like Bolsa Família and Fome Zero, which helped Lula fulfill one of his electoral promises: to ensure that Brazilians had three meals a day. Furthermore, they will say, these promises were made while Lula safeguarded the sustainability and prosperity of the Brazilian economy.
+
+For others, the coming to power of the almost illiterate union leader was the starting point for a degradation of Brazilian political life. They will also say that Lula pulled from his unionist legacy when he was already receiving a lifetime pension for having been a political prisoner, more than enough compensation.
+Lula started his term with an appeal for national unity and social cohesion. In fact, during his tenure, he implemented social policies with international recognition while promoting the interests of the richest Brazilian classes, to the point that Brazil went through the financial crisis of 2007-2008 relatively unscathed.
+
+For some, this fact is purely true. As proof, they point out how Lula disappointed critics since, instead of following the financial policies of Venezuela Chavista or Argentina Kirchnerista, he built a good relationship with the IMF and used public-private partnerships to promote Brazilian growth.
+
+Critics would say that many of the social policies were created and tested before Lula and that he was favored by the luck of a China thirsting for raw materials to feed the traditional Brazilian export engines. Furthermore, Lula left unresolved financial problems like the sustainability of pensions. 
+
+Lula tried, with some success, to make Brazil an arbiter on the world geopolitical stage, as when he mediated talks on the Iranian nuclear crisis. His supporters will agree and add that Lula has made Brazil so important that it is now part of the G20 and a recurring candidate for one of the permanent seats on the UN security council in a hypothetical expansion of this body. Critics will reply that no one wants to know about Brazil and that Lula's third-world geopolitics navigated Hugo Chávez's media ride and the absurd concept of BRICS. 
+
+Lula's post-mandate helped a lot in the controversy. After surviving throat cancer, Lula saw his partner in arms from the Workers' Party (the party he helped found in 1980) and political successor, Dilma Rousseff, to be fired after an impeachment in 2016. Worse, in July 2017, after investigations that included the famous “Operation Lava-Jacto”, Lula was sentenced to 9 and a half years in prison for money laundering and corruption.
+
+After a period of struggle in the streets and corridors of power in Brazil, Lula was finally jailed in April 2018. To help the fall, he saw his candidacy for the 2018 presidential election denied under the Clean Sheet Law which, in short, prevents candidates with a political or criminal record from running for elections for 8 years after the decision, even if there are ongoing appeals.
+
+In 2019, Lula was released from prison.
+
+In other words, Lula is such a passionate character that it is difficult to lose the idea of what happened when, at last, he was president of Brazil.
+Therefore, Mehmet and I decided to refresh the collective memory of Lula's presidency.
+
+So, why do this refreshing via El Pais? We chose this newspaper for four reasons. One, we wanted to do something different to the first two episodes, and do our analysis through a non-English newspaper. Second, El Pais is a major international newspaper that is known to extensively cover Latin America. Third, El Pais offers a fair amount of access to it's articles for free. And last, it is a traditionally center-of-left newspaper - a fitting medium for the background on Lula we just discussed. On this last point, El Pais is also slightly controversial. In 2016, it was revealed that El Pais' Brazilian subsidiary had received funds from Lula's Worker's Party.
+
+So, in general, we expect extremely positive coverage of Lula in both the article on the rise and the article on the fall of Lula.
+
+The news of the rise came on October 22, 2002, two days after the second round of the Brazilian presidential elections. The news of the fall came out on October 31, 2010, on the day of the second round of the Brazilian presidential elections before the results were known. It should be remembered that Lula could not run, given the constitutional limit on presidential terms.
+
+Though we suspect the rise and fall articles from El Pais to be very favorable to Lula, there is still an eight year gap between them. Those eight years are quite dense - not only for what Lula did as president, but also how Brazilian democracy had the chance to mature. A lot may have changed, which is precisely what we look for in this podcast: the nature and evolution of press coverage.
+
+As ever, there is no attempt here to find a fair judgment of Lula's life and work: rather, the characteristics of coverage in Lula's rise and fall are sought. We look at these characteristics under three categories: the technical side, the contents/themes and interesting nuggets.
 
 General notes on rise article:
 
@@ -46,25 +69,31 @@ General notes on fall article:
 
 # Part 1: Technical Analysis
 
+And so, we start off with the technical analysis. We focus on the differences before the similarities. 
+
+The first difference that one can see is that the author is declared for the rise article, while this is not the case for the fall article. There is also a difference in length. The rise article, with it's 704 word count, is significantly shorter than the fall article, which has 945 words. This difference in length can also be felt when one reads the articles. The fall article makes use of much longer sentences - to the point where one paragraph can consist of one sentence. The sentences themselves largely consist of indirect speech. The rise article, on the other hand, has shorter sentences, with more usage of direct speech. This is more in line with what one might expect from a typical article in a newspaper.
+
+One other difference is the way the articles choose to present their stories. The rise article starts by describing the inaguaration of Lula, and then dives into policy, geopolitics and election promises. All of this is decorated with quotes from Lula's speech at his inaguaration ceremony. The fall article, on the other hand, does not build itself around an event. It is a commentary on Lula's time in office, who is being set up to succeed him and Brazil's future. Very much in the style of a wizened political commentator telling you their opinion over a cup of tea.
+
+That bring us to the most important difference. The rise article is indeed from the print edition of El Pais - in fact it was one of the cover articles for the day it was published. So it's objective is to report an event that has happened. The fall article, on the other hand, was never published in the print edition. It's from the webpage of El Pais - which makes it more likely to be an editorial, where events are commented on.
+
+This explains the differences we have seen - in terms of length, writing style and, as we've touched upon briefly for the time being, content. 
+
+We've talked about the technical differences - what about the similarities? When the articles are about a left-wing president from a left-wing newspaper, one would expect that the overall sentiment is positive. That is more or less what we see across both articles. From a qualitative perspective, this is clear at first read. Lula is the charismatic political leader. He might be a populist and rough around the edges, but he has promised policies in the rise article that have been largely delivered according to the fall article.
+
+From a quantitative perspective, things are not so clear cut. This is largely due to the fact that the articles are originally written in Spanish. Algorithms and machine learning algorithms that are widely available for predicting sentiment in texts are largely optimized for English. However we were able to find one repository on GitHub that contains a sentiment predictor model trained on Spanish online retail reviews. We thank the owner of the (TODO: Insert name of repository here) for open sourcing this piece of code, as we have used it for this episode.
+
+We do the sentiment analysis in two levels - sentence and paragraph. What does this mean exactly? Let's take the example of doing it at the paragraph level. We predict the sentiment score for each paragraph in an article, and then calculate the average across all paragraphs, to get an idea for the whole article. We do the same for sentences. We do this because the model we are using is trained on texts that are not as long as news articles, so we need to provide it with input that is similar, at least in length, to what it has been trained on. 
+
+For both levels of analysis, the results are (TODO: Put in the scores). Keep in mind that the scores can be at minimum 0, indicating an abso
+
 Similarities: 
 
-1. Sentiment - the sentiment analysis is done in three parts. On the whole text, paragraph by paragraph and sentence by sentence. Due to how the NLP model is trained (based on Spanish reviews of products from online retailers), it is actually not designed to make conclusions about sentences/paragraphs in news articles. So we do the sentiment analysis on three levels, to see if there are any intra-article differences. The conclusion is that both articles score very similar sentiment scores. This is not surprising - they are both brimmingly optimistic.
+1. Sentiment - the sentiment analysis is done in three parts. On the whole text, paragraph by paragraph and sentence by sentence. Due to how the NLP model is trained (based on Spanish reviews of products from online retailers), it is actually not designed to make conclusions about sentences/paragraphs in news articles. So we do the sentiment analysis on two levels, to see if there are any intra-article differences. The conclusion is that both articles score very similar sentiment scores. This is not surprising - they are both brimmingly optimistic.
 
-2. Direct/Indirect speech?
+1a. Sentiment - the translated articles are put through the NLTK package, as we normally do, and the results are still consistent as before. There is no difference in sentiment between the two articles. However the NLP sentiment analysis is not conclusive with regards to whether the two articles largely have positive or negative sentiments. 
 
-3. Length of sentences?
-
-Differences:
-
-1. Word count - the fall article is longer (945 words) than the rise article (704 words)
-
-2. The rise article has an author declared, whereas the fall article has no declared article. Even though both are from the printed edition of El Pais.
-
-3. The rise article uses a lot of quotes to build up their story. The fall article does not do any of this - even though it's not hard to imagine this particular article quoting a history or political science professor/pundit.
-
-4. Content - the rise article gives much more room for policies. It seems to be involved in an ongoing debate about whether Lula is a wildcard populist (his background and upbringing certainly would say so). El Pais is clearly in the "he will be good for this country, and do not worry" camp. Yet there is caution. The fall article almost treats him like the Messiah, even though they admit to his party's authoritarian-like tendencies and his wild mood swings.
-
-# Part 2: Social and Political Analysis
+# Part 2: Themes and Contents
 
 Similarities:
 
