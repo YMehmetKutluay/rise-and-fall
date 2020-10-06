@@ -1,5 +1,4 @@
 # Download
-# import nltk
 # nltk.download('vader_lexicon')
 # Inspiration: https://amiham-singh.github.io/ 
 # Small example: https://towardsdatascience.com/https-towardsdatascience-com-algorithmic-trading-using-sentiment-analysis-on-news-articles-83db77966704
