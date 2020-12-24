@@ -1,0 +1,34 @@
+---
+title: "Margaret Thatcher"
+author: "Guilherme Oliveira and Mehmet Kutluay"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Hello, and welcome to Rise and Fall. Episode 4. Margaret Thatcher.
+
+Last time, we analyzed articles from El Pais that covered the presidency of Lula between 2003 and 2010. Today, we will be shifting our attention to "Europe" and look at how the Washington Post covered Margaret Thatcher's first and last day in office - the 4th of May 1979 and 28th of November 1990. 
+
+Thatcher, also known as the Iron Lady, was the first woman to become a leader of a country west of Israel. She came from rather humble roots - the daughter of a Methodist pastor (TODO: check this):
+
+- Humble origins, went to grammar school, got into Oxford and studied chemistry even though she was active in politics.
+- She rised quickly in the ranks of the Conservative party, serving a stint in the cabinet as education secretary in such and such years (TODO: Write down the years).
+
+
+# Part 1: Technical Analysis
+
+# Part 2: Themes and Contents
+
+Rise article:
+
+1. Very nice foreshadowing by Callaghan about what lowering income taxes  (increasing sales taxes) and curbing union power (tougher strikes than the ones in the Winter of Discontent) means.
+
+# Part 3: Interesting Nuggets
+
+# Conclusion
