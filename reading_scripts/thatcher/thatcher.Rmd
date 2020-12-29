@@ -19,16 +19,79 @@ Thatcher, also known as the Iron Lady, was the first woman to become a leader of
 
 - Humble origins, went to grammar school, got into Oxford and studied chemistry even though she was active in politics.
 - She rised quickly in the ranks of the Conservative party, serving a stint in the cabinet as education secretary in such and such years (TODO: Write down the years).
+- She won the 1979 election after Callaghan's Labour government failed a vote of no confidence on the heels of the 1978-1979 Winter of Discontent. The ironic thing is, is that the Labour party was very popular with the voters just before said winter and it was expected that Callaghan would have called an election in the fall of 1978 to further boost his position. He didn't, gambling that he could be in a stronger position by spring of the following year. Then history happened.
+- Thatcher personified the reaction to what went wrong during the Winter of Discontent - specifically the failed approach to inflation and power of labor unions.
 
+Why Thatcher and Washington Post?
+- The reason for choosing Thatcher is clear. She personified a break in Great Britain's post World War Two consensus and welfare state. Whoever lead this break was always going to be a historically consequential leader. However, Thatcher further stands out for the way she did this. She was talented at rhetoric and knew how to use the media well. She was a tough leader, and did not shy away from standing strong, even if controversial, in the face of crises. 
+- Another reason for looking at Thatcher is that the way she is remembered does not necessarily align with the coverage of her taking and leaving office. When she won the election in 1979, it was not covered as the start of a massive change in Great Britain. When she was leaving office in 1990, it was not covered as the end of a transformative era for Great Britain, but more about some potential hiccups in the project of the European Union. Her reputation evolved into what it is today not due to what she did, but how it was remembered later on. While this is the case for any leader, and any event, the contrasts for Thatcher are remarkable.
+- Why Washington Post? 1) It is a highly respected American newspaper that is also known for it's coverage of world events - particularly European ones. 2) We just got a subscription to the Washington Post that we'd like to exploit (TODO: Strengthen this)
 
 # Part 1: Technical Analysis
 
+Similarities:
+1. Authors are declared for both articles
+2. The articles are published slightly off-time. The rise article is right after the election, but before the results are finalized. The fall article is two days before Thatcher resigned, but when it was obvious she was going to lose the leadership contest.
+
+Differences:
+1. Rise article is front page news, whereas the fall article is well within the newspaper (on page A11). It seems that the fall article is more of an opinion piece than a news report. This is a pattern that we're starting to see with political leaders, except for Qaddafi.
+2. Rise article is almost two times longer than the fall article (1511 vs 783 words).
+3. The rise article is written the day after the election but before the results were final. The fall article is written two days before Thatcher steps down as prime minister. But it is clear that someone else is coming to replace her. 
+4. There are lot of quotes in the rise than in the fall article.
+5. Sentiments are different. The rise article has a higher positive sentiment than the fall article, even though this is difficult to perceive when one reads the articles. This could be driven by the large number of quotes in the rise article. This makes sense - quotations from an article talking about an election victory tend to be optimistic.
+
+
 # Part 2: Themes and Contents
+
+Introduction:
+
+1. The scope of the two articles are completely different. The rise article focuses on the election and election issues. The fall article focuses only on international relations and a bit of geopolitics. The scope of the rise article is not surprising, however the scope of the fall article is unexpected. An opinion piece that details an outgoing prime minister, and one as visible as Thatcher, says surprisingly little about the person herself. 
+
+2. So thus, we're going to look at the articles in terms of themes and contents separately, as opposed to comparing them to each other.
+
+Rise:
+1. We consider the following categories: geographical distribution of voters, Thatcher's profile, Callaghan's profile, preference of voters and prospect of other parties.
+
+Voters:
+- We start with the voters, more specifically their preferences. Keeping in mind that this article is written in the spring of 1979, there is a lot of ongoing crises in the economy of Great Britain. The Winter of Discontent has just ended, and the election has happened after the Labour government of Callaghan was unable to survive a vote of no confidence. Despite all this, the share of voters preference is constrained to three sentences, taking in around 10% of the words in the article. This suggests the rise article is not overly concerned with the voters themselves. Further evidence to back this up is in the number of sentences dedicated to describing geographical distribution of voters (the North-South, urban-rural divide) - a mere two sentences, and 5% of all words. However, the few sentences there are can be quite weighty. For instance: "“But there was also another strong theme in the pollsters' findings: voters want a change. They are wary of Thatcher, but they strongly support her proposals to cut taxes, to reduce government spending and power, to curb the labor unions, and to strengthen the forces of military defense and domestic law and order."
+
+Candidates:
+- The lion share of words and sentences are dedicated to the profiles of Thatcher and Callaghan. 
+- Thatcher:
+- Callaghan:
+
+Other parties:
+- The other parties, the Liberals, nationalist parties of Scotland, Wales and Northern Ireland are also mentioned quite a bit - about five sentences with 17% of all words. 
+
+Fall:
+1. We consider the following categories: Thatcher's ill-advised reaction to creating a European banking union (the pebble from hereon), geopolitics and politics (both EU and GB).
+
+Pebble:
+- This is the main international event that created an opportunity for a Tory rebellion against Thatcher to succeed. When the fall article was published, the chain of events that had led to Thatcher's fall was largely complete. Of the ten sentences in the fall article, three are dedicated to this story. It takes up 38% of all words.
+
+Geopolitical implications of Thatcher's downfall:
+- This follows logically from the main theme of the fall article. Thus two sentences are dedicated to it, taking up 24% of all words.
+
+EU and UK politics:
+- This theme has the most number of sentences, with five. However the share of words is at 38%, indicating that these are short sentences. The longer sentences are dedicated to the events on the international arena. So this theme is more given as a report, while the other themes are covered as the interesting story.
+
+# Part 3: Interesting Nuggets
 
 Rise article:
 
 1. Very nice foreshadowing by Callaghan about what lowering income taxes  (increasing sales taxes) and curbing union power (tougher strikes than the ones in the Winter of Discontent) means.
 
-# Part 3: Interesting Nuggets
+2. The article was published before the results were finalized. Their confidence in Thatcher's victory relies, partly, on estimations that are generated by computers. The fact that it is underlined that these estimations are computer-generated remind us just how recent forecasting has become a part of everyday reporting. 
+
+3. The rise article is full of quotations. One striking quote is Thatcher saying "Make Britain great again" to undecided voters, in an effort to have them vote for her.
+
+4. Callaghan was a very popular prime minister. Even after the Winter of Discontent, the rise article underlines how statesmanlike he looks and acts, compared to the strict headmistress attitude of Thatcher. 
+
+Fall article:
+
+1. The Italian foreign minister De Michelis' name is found more often than Thatcher's.
+
+2. Commentary on EU integration. According to the author, Thatcher held the contrary British view of being against further EU integration. This is why she got overthrown within her own party. The author claims that further EU integration is positively viewed by countries with a strong parliamentary tradition (Great Britain, Germany) and with skepticism by countries with a strong executive tradition (France, Italy). Great Britain is thus naturally inclined to be even more involved with the EU project. Brexit being a Tory proposition thus becomes bewildering. 
 
 # Conclusion
+
