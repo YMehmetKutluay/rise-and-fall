@@ -1,0 +1,84 @@
+---
+title: "Margaret Thatcher"
+author: "Guilherme Oliveira and Mehmet Kutluay"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Hello, and welcome to Rise and Fall. Episode 4. Margaret Thatcher.
+
+Last time, we analyzed articles from El Pais that covered the presidency of Lula between 2003 and 2010. Today, we will be shifting our attention to "Europe" and look at how the Washington Post covered Margaret Thatcher's first and last day in office - the 4th of May 1979 and 28th of November 1990. 
+
+Thatcher, also known as the Iron Lady, was the first woman to become a leader of a country west of Israel. She came from rather humble roots - as the daughter of a Methodist preacher and shop owner. By attending grammar school, she was able to get into Oxford to study chemistry. From there she joined the Conservative party and started going up in the ranks. Before becoming prime minister, her cabinet experience consisted of a stint as Secretary of State for Education and Sciences, between 1970 and 1974. A year later, she was elected leader of the Conservative party, which was not in government at that point.
+
+In 1979, then Labour prime minister of Great Britain, James Callaghan, lost a vote of no confidence and a general election was triggered. This was on the heels of a decade-long rise in unemployment, inflation and the 1978-1979 Winter of Discontent. Thatcher's Conservatives won the election. Thatcher herself personified the reaction to what went wrong during the Winter of Discontent - specifically the failed approach to tackling inflation, unemployment and the unchecked power of labor unions. She became prime minister in 1979 and would lead Great Britain until 1990.
+
+So, why Thatcher and why the Washington Post?
+
+Thatcher personified a break in Great Britain's post World War Two consensus and welfare state. Even though the break was a long time coming, whoever lead this break was always going to be a historically consequential leader. Thatcher not only lead this break, but also lead it in her personal style. She was talented at rhetoric and harnessing the media, and used these aggressively against her opponents. Her style was tough and she weathered crisis after crisis during her tenure. Even after her death, the way she is remembered is very different across ideological lines. Thus, it's important to refresh our collective memory on how she entered and exited office. 
+
+And why the Washington Post? Well for starters, it is a highly respected American newspaper that is known for it's high-quality coverage of world events. And we just invested in a subscription in the Washington Post to get access to their historical archives. The Post holds a center-of-left perspective in US politics, which we expect might make it slightly hostile towards Thatcher.
+
+As always, we make no attempt to make a fair judgment of Thatcher. We seek to compare and contrast the coverage of Thatcher's rise and fall. We compare and contrast across three categories: technical aspects, contents and themes and interesting nuggets.
+
+# Part 1: Technical Analysis
+
+And so, we start off with the technical aspects. We focus on the similarities before the differences. 
+
+There are only a few similarities between the two articles. In what is a first for this podcast, both articles have their authors declared. This could be due to the fact that both articles are in print form, which is a first for us.  The second similarity is that both articles are published slightly off-time. The rise article is published right after the election is held, but before the results are finalized. The fall article is published two days before Thatcher resigned, but when it was obvious that she had lost the leadership contest. This could again be a result of print journalism. Since it is not possible to publish about events as they happen, it's perhaps better to report early on an event that is all but certain to happen. This way the newspaper can be competitive in captivating their audience's attention - after all, it's best to be the first to report.
+
+We move onto the technical differences. In this, the two articles are substantially different from each other. The rise article is almost two times longer than the fall article, at 1511 vs 783 words. It is also front page news, whereas the fall article is well within the newspaper, on page A11, and is written as an opinion piece. Interestingly, this difference is something that we have seen for all the political leaders we've covered so far, except for Qaddafi. Another technical difference is the usage of quotes. The rise article makes use of a lot of quotes, from recent and past interviews, compared to the fall article. This is most likely stemming from the types of articles we are looking at. The rise article is focused on delivering information. The fall article is an opinion piece.
+
+The final technical difference is from the sentiment analysis, done via the Python package, NLTK. This analysis shows that the rise article has a higher positive sentiment than the fall article. However when one reads the articles, it isn't obvious whether the rise article is more positive than the fall article. This result could be driven by the relatively large number of quotes in the rise article. Politicians tend to say very optimistic things in and around an election.
+
+# Part 2: Themes and Contents
+
+We carry onto the second part of our episode - themes and contents of the articles. It should first be noted that the scope of the two articles are completely different from each other. The rise article focuses on the election and election issues. This is to be expected. The fall article has a narrower scope - it focuses only on international relations and some geopolitics. This is rather surprising, because not much room is given to evaluating the outgoing prime minister, especially one as visible and controversial as Thatcher. 
+
+Therefore, we're going to look at the articles in terms of their own themes and contents separately, as opposed to comparing and contrasting. 
+
+We begin with the rise article and focus on the following themes and categories: geographical distribution of voters, the preference of voters, Thatcher's profile, Callaghan's profile and prospect of other parties
+
+Let's start with the preference of voters. Keeping in mind that this article was written in the spring of 1979, there is an ongoing economic crisis in Great Britain. The Winter of Discontent has just ended, and the election has taken place after the Labour government of Callaghan failed a vote of no confidence. Despite this background, voter preferences are described in three sentences, taking in around 10% of the words in the rise article. This suggests that the article is not overly concerned with the voters themselves. Further evidence to support this is in the number of sentences dedicated to describing the geographical distribution of voters. It is only two sentences, consisting of 5% of all words. However, the few sentences there are quite full. For instance: "But there was also another strong theme in the pollsters' findings: voters want a change. They are wary of Thatcher, but they strongly support her proposals to cut taxes, to reduce government spending and power, to curb the labor unions, and to strengthen the forces of military defense and domestic law and order." That is a pretty concise summary.
+
+We carry onto the other parties, "other" meaning other than Labour and Conservative. These parties are the Liberals, various nationalist parties in Scotland, Wales and Northern Ireland. Five sentences, taking up 17% of all words, are dedicated to this theme. Given the number of parties, this may seem small. However Great Britain's first past the post rules of electing members of Parliament doesn't create much space for small parties to thrive. So this is not too surprising. 
+
+We look at the final themes - the candidates profiles. In general, the lions share of the words and sentences of the rise article are split roughly between the profiles of Thatcher and Callaghan. Eight sentences, with 27% of all words, talk about Thatcher's profile. For Callaghan's profile, this is six sentences and 20% of all words. These sentences confirm the anti-Thatcher sentiment that we'd suspected of the Post. While Callaghan is described as a statesman who is also a polite gentleman. His extensive experience in senior cabinet jobs, before becoming prime minister, are mentioned. This is in contrast to Thatcher, who had only ever been Secretary of State for Education and Science before this. This point is driven ever more as the article describes how she "lectured Britain like a stern schoolmistress" during the election campaign. Moreover, Callaghan is reported to be ahead in the opinion polls, simply because of his likability and popularity as prime minister. Thatcher's win is linked more to the economic circumstances the country faces, rather than the strength of Thatcher as a politician. 
+
+We continue with looking at the themes and contents of the fall article. Even though this is the article on Thatcher's fall from power, there is a lot of care done within the article to not mention Thatcher, or her legacy, too much. There are three of themes and contents we look at - Thatcher's ill-advised reaction to creating a European banking union (called the "pebble" from hereon), geopolitics and politics. The last category covers politics within Europe and Great Britain.
+
+We start off with the pebble. Thatcher's negative reaction to then Italian foreign minister De Michelis' proposal of creating a banking union is framed, in the fall article, as a "pebble on which Thatcher slipped". Her reaction led to a chain of events that led to a leadership contest from within the Conservative party. By the time the fall article was published, Out of the ten sentences in the fall article, three of them cover this topic. It takes up 38% of all the words. However, it is arguably the main theme of the fall article. 
+
+The geopolitics theme comes up as a natural extension of the pebble theme. It consists of two sentences and 24% of all words. Like the pebble theme, we see that these are relatively long sentences. 
+
+The last theme is politics - specifically in Europe and Great Britain. This theme has the most number of sentences - five. However its share of total words is 38%, indicating that these are relatively short sentences. This is because the politics of Europe and Great Britain, going forward after Thatcher's departure, are dry subjects compared to the gossiping of Thatcher's tantrum and it's geopolitical implications.
+
+# Part 3: Interesting Nuggets
+
+Finally, we move on to the last section: the interesting nuggets. We first look at some interesting nuggets we found in the rise article.
+
+The first nugget is some foreshadowing by Callaghan on the outcome of lowering income taxes and curbing union power would mean. He predicted that this would lead to an even more increase in unemployment and inflation. All of this did happen within the first few years of Thatcher's policies.
+
+The second nugget is also concerned with the future, this time in a statistical sense. As mentioned before, the rise article was published before the election results were finalized. The article's confidence in Thatcher's victory relies partly on estimations that are generated by computer. The fact that the word "computer" is mentioned is a reminder of just how recent computer-driven forecasting has become a part of everyday reporting.
+
+As mentioned before, the rise article is full of quotations. The last interesting nugget is one quotation from Thatcher. In order to convince undecided voters to vote her, she asks them to "Make Britain great again". It seems this slogan is a very handy one in winning elections.
+ 
+There are two interesting nuggets in the fall article. The first one is that the Italian foreign minister's name, De Michelis, is mentioned more than Thatcher's. This article really does it's best to talk about Thatcher's downfall by not really talking about Thatcher.
+
+The second interesting nugget is the article's take on EU integration. According to the article, Thatcher held the contrary British view of being against further European integration. This is how it became possible for her to be overthrown from within her own party. The article ties this to a claim that further European integration is positively viewed by countries with a strong parliamentary tradition, countries like Germany and Great Britain. On the other hand, European integration is viewed with more skepticism by countries with a strong executive tradition, like France and Italy. Great Britain is thus naturally inclined to be even more involved with European integration. It is thus ironic that the first country to have left the European Union was Great Britain.
+
+# Conclusion
+
+And that's it - we've come to the end of the episode. Thatcher, a leader whose legacy continues to be controversial today. Thank you very much for tuning in!
+
+Please share your views, suggestions for future episodes and everything else that comes to mind on our Facebook page “Rise and Fall”.
+
+If you prefer, you can send an email to rise.and.fall.press@gmail.com. We only ask you to make your comments and suggestions constructively.
+
+See you all next time!
