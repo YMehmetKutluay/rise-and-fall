@@ -1,0 +1,14 @@
+---
+title: "Gamal Abdel Nasser"
+author: "Guilherme Oliveia and Mehmet Kutluay"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Hello, and welcome to Rise and Fall. Episode 5. Gamal Abdel Nasser.
