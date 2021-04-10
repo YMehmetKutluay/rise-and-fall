@@ -11,4 +11,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-Hello, and welcome to Rise and Fall. Episode 5. Gamal Abdel Nasser.
+Hello, and welcome to Rise and Fall. Episode 5. Gamal Abdel Nasser. 
+
+Last time, we started off our Washington Post sub-series by covering the prime ministership of Margaret Thatcher between 1979 and 1990. Today, we will be shifting our attention to North Africa and continue our sub-series by analyzing the rise and fall of Gamal Abdel Nasser in Egypt between the 1950's and 1970.
+
+Up to now, we've always considered the articles that relate to the leaders entrance into and exit out of office. However, this kind of analysis has two drawbacks. The first is that newspapers may be covering these leaders in more than two articles. Not considering other articles into account can severely limit how news coverage evolved over time, which is what we're interested in.
+
+The second problem is about defining entrance and exit itself. In the case of countries with established ways of transferring power, this is somewhat straightforward. We know, for instance, the exact day when Francois Hollande took over power from Nicolas Sarkozy in France. However, in the case of countries without such established ways of transferring power, this is difficult. 
+
+Let's take Nasser for instance. Nowadays, we think of him as becoming the leader of Egypt in July 1952, when he masterminds a coup that overthrows King Farouk. However, while Nasser was one of the leaders behind the coup, he was not _the_ leader of the coup. That was Mohamed Naguib, a general and war hero in the army. Naguib not only became President of the newly acclaimed republic, but seems to have had some power until 1955. In those three years, he and Nasser got entrenched in a low-intensity power struggle. After 1955, with today's hindsight, Nasser is firmly in power. But he doesn't become the _President_ of Egypt until 1956. 
+
+So, when can we consider Nasser as becoming Egypt's leader? And, equally importantly, when did the Washington Post consider it? 
+[TODO: Write more things here, but keep it to 1-2 sentences].
+
+And what an impact Nasser had. A wily politician, he managed to achieve 

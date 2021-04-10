@@ -62,6 +62,8 @@ for f in all_files:
         # Append to df
         df = df.append(sub_df, ignore_index = True)
         # Group by pos_value and count
+    # Take out punctuation
+    df = df.loc[df["pos_value"] != "PUNCT"]
     n_rows = len(df)
     df = (
         df
