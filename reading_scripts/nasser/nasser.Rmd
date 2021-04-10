@@ -24,4 +24,24 @@ Let's take Nasser for instance. Nowadays, we think of him as becoming the leader
 So, when can we consider Nasser as becoming Egypt's leader? And, equally importantly, when did the Washington Post consider it? 
 [TODO: Write more things here, but keep it to 1-2 sentences].
 
-And what an impact Nasser had. A wily politician, he managed to achieve 
+And what an impact Nasser had. A wily politician, he managed to achieve [STOP HERE AND WAIT FOR GUILHERME'S WORK]
+
+# Part 1: Technical Analysis
+
+And so, we start off with the technical analysis. We begin with the differences and then look at the similarities.
+
+Differences
+
+1. Purpose - profiling vs event. Rise-2 is also a profiling article, however Rise-3 is an event article albeit a curt one.
+2. Length - Rise-1 has 1500+ words, whereas Fall has 800+ words. This is in line with what one would expect between profiling and event articles
+3. Sentiment - the Rise articles start off with a positive sentiment, but then the sentiment becomes starkly negative. This follows the story of the WP seeing the revolutionaries as initially being pro-democractic and progressive. Then some schadenfreude occurs. Given this trajectory, one would expect the WP to be happy to hear about Nasser dying, with the Fall article having a positive sentiment. The exact opposite is true
+
+Similarities
+
+1. I cannot think of any similarities unfortunately.
+
+# Part 2: Themes and Contents
+
+# Part 3: Interesting Nuggets
+
+# Conclusion
