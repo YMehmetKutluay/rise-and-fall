@@ -21,26 +21,31 @@ The second problem is about defining entrance and exit itself. In the case of co
 
 Let's take Nasser for instance. Nowadays, we think of him as becoming the leader of Egypt in July 1952, when he masterminds a coup that overthrows King Farouk. However, while Nasser was one of the leaders behind the coup, he was not _the_ leader of the coup. That was Mohamed Naguib, a general and war hero in the army. Naguib not only became President of the newly acclaimed republic, but seems to have had some power until 1955. In those three years, he and Nasser got entrenched in a low-intensity power struggle. After 1955, with today's hindsight, Nasser is firmly in power. But he doesn't become the _President_ of Egypt until 1956. 
 
-So, when can we consider Nasser as becoming Egypt's leader? And, equally importantly, when did the Washington Post consider it? 
-[TODO: Write more things here, but keep it to 1-2 sentences].
+So, when can we consider Nasser as becoming Egypt's leader? And, equally importantly, when did the Washington Post consider it? We selected three articles. The first is from 1953, and gives a profile of all the key players involved in the military coup, and subsequent administration of Egypt. This article gives the most insight about Nasser himself and his political stance. the second article is a short article written in 1953, on the heels of the purges following an assassination attempt on Nasser. The article is a short op-ed that admits Nasser was the mastermind behind the revolution all along. The third article, written in 1956, reports that Nasser has become the president of Egypt. While Rise-3 would normally be our rise article, we take Rise-1 to be our main rise article. 
 
-And what an impact Nasser had. A wily politician, he managed to achieve [STOP HERE AND WAIT FOR GUILHERME'S WORK]
+As can be seen, Nasser's rise to power was not as neat a story as is told. The fantastically intricate rise of Nasser is, perhaps, worthy of his spectacular career. He was born the son of a postal clerk in 1918 and joined political activism during high school, This was at a time when many Egyptians protested and actively opposed the status of Egypt as a British protectorate. He was a non-elite Arab in a country headed by a King who took pride of his Albanian origins while British officials controlled the defense, foreign affairs, and the Suez canal. Nasser thus felt naturally inclined towards the emerging left-wing Arab nationalism. Furthermore, he found inspiration in history and recognized that the military was the perfect place to change the country. 
+
+From 1937, he served as an officer in the Egyptian army in different locations and postings without ever stopping his political activism. His career included active duty in the the 1948 Arab-Israeli war whose humiliating outcome convinced Nasser, and many young officers, that a dramatic political change had to take place. That change came in 1952, in the form of a coup that overthrew King Farouk. This coup was headed by Naguib. However, the charisma and drive of Nasser fueled his ambitions and, after a complicated sequence of events, he became president of Egypt in 1956. 
+
+Soon afterwards, Nasser nationalized the Suez Canal under the pretext of financing the Aswan dam. His determination when facing the invasion by the UK, France and Israel signals that he understood that the European colonial empires could not act without American support and against Soviet power. His charisma help captivating the support of all Egyptians and Arabs, despite the horrific military losses. This mix of wit and mix allowed him to become the great leader of the Arab world and the great inspiration of Arab nationalism, even after Egypt’s crushing defeat against Israel in the Six-Day War in 1967. Indeed, when he died in 1970, Egypt was officially called United Arab Republic, a residue of the failed attempt in uniting with Syria. All of his personal ventures allowed him to simultaneously gain support from Soviet Union and respect from the US. Thus, Nasser founded an autocratic political regime that left Egypt almost permanently in the hands of the military, a state of affairs that continues today.
 
 # Part 1: Technical Analysis
 
-And so, we start off with the technical analysis. We begin with the differences and then look at the similarities.
+And so, we start off with the technical analysis. We will be looking at the evolution of coverage in a technical perspective with the four articles we have - Rise-1, Rise-2, Rise-3 and Fall.
 
-Differences
+It should first be established that these articles differ somewhat from each other in terms of the purpose they were written for. Rise-1 and Rise-2 are profiling articles. They look at Nasser and discuss about his general disposition and status in Egypt's politics. Rise-3 and Fall, on the other hand, are event articles. They are reporting on Nasser becoming the president of Egypt, and, much later on, his death. Hence, the profiling articles are generally longer than the event articles. Rise-1 and Rise-2 have 1517 and 291 words, respectively. Rise-3 and Fall have 404 and 882 words, respectively. 
 
-1. Purpose - profiling vs event. Rise-2 is also a profiling article, however Rise-3 is an event article albeit a curt one.
-2. Length - Rise-1 has 1500+ words, whereas Fall has 800+ words. This is in line with what one would expect between profiling and event articles
-3. Sentiment - the Rise articles start off with a positive sentiment, but then the sentiment becomes starkly negative. This follows the story of the WP seeing the revolutionaries as initially being pro-democractic and progressive. Then some schadenfreude occurs. Given this trajectory, one would expect the WP to be happy to hear about Nasser dying, with the Fall article having a positive sentiment. The exact opposite is true
+This fluctuation in word count - starting very high, then dipping and then becoming relatively high again - reflect the Washington Post's sentiments towards Nasser. In Rise-1 and Rise-2, the NLTK sentiment analysis estimates positive sentiments to be doubly present, relative to the negative sentiments. These are the years 1952 and 1953, where Nasser is seen as a modernizer that wants to establish a respectable, anti-communist and republican Egypt. It's only in Rise-3, the article on him becoming President in 1956, is it clear that he is also a Machiavellian political operator who has won an election without any competition. The negative sentiment in Rise-3 is triple that of the positive sentiment. 
 
-Similarities
-
-1. I cannot think of any similarities unfortunately.
+Given this state of affairs, one would expect a short and cheerful article to mark Nasser's death. However, we see the exact opposite - the Fall article is 882 words long, and it's negative sentiment score is almost equal to it's positive one. Perhaps this is due to his death being untimely, and literally hours after securing peace between Arafat and the Jordanian crown in a summit in Cairo. 
 
 # Part 2: Themes and Contents
+
+This evolution of sentiments around the coverage of Nasser - enthusiasm, disillusionment and shell shock - coincide well with the themes and contents in these articles. In the interest of time, we'll only look at the themes and contents in Rise-1 and Fall articles.
+
+The themes and contents found in the Rise-1 article are - [TODO]
+
+In comparison, the Fall article 
 
 # Part 3: Interesting Nuggets
 
